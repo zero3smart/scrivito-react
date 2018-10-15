@@ -1,0 +1,484 @@
+/* boxes */
+#boxes {
+    display: block;
+    z-index: 164;
+    height: 660px;
+}
+
+#box29 {
+    display: block;
+    border-style: none;
+    border-radius: 13px;
+    left: 225px;
+    top: 0px;
+    z-index: 165;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+    box-shadow: 0px 3px 9.2px 0.8px rgba(8, 26, 82, 0.14);
+}
+
+/*Boxes and image 2 glassdoor*/
+.image {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 29px;
+    top: 40px;
+    z-index: 166;
+    position: absolute;
+}
+
+#image1 {
+    display: block;
+    background: rgba(255,255,255,1);
+    left: 39px;
+    top: 36px;
+    z-index: 166;
+    position: absolute;
+}
+.image-container {
+    width: 149px;
+    height: 50px;
+}
+
+#color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0px 3px 9.2px 0.8px rgba(8, 26, 82, 0.14);
+}
+/* image 2*/
+
+#box-80 {
+    display: block;
+    background: var(--primary-color);
+    border-style: none;
+    border-radius: 13px;
+    left: 467px;
+    top: 0px;
+    z-index: 167;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+
+/*glassdoor*/
+#ls-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+    background: rgba(0,170,73,1);
+}
+
+#image-293 {
+    display: block;
+    left: 28px;
+    top: 43px;
+    z-index: 168;
+    position: absolute;
+}
+
+/*image 3 neuvo*/
+#box-81 {
+    display: block;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 3px 9.2px 0.8px rgba(8, 26, 82, 0.14);
+    border-style: none;
+    border-radius: 13px;
+    left: 104px;
+    top: 135px;
+    z-index: 169;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+
+#image294 {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 27.5px;
+    top: 44.5px;
+    z-index: 170;
+    position: absolute;
+}
+
+/*image 4 Linkedin*/
+#box-82 {
+    display: block;
+    background: rgba(1,103,152,1);
+    border-style: none;
+    border-radius: 13px;
+    left: 346px;
+    top: 135px;
+    z-index: 171;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+
+#box82-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+}
+
+#image-295 {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 28px;
+    top: 37.5px;
+    z-index: 172;
+    position: absolute;
+}
+
+/* image 5 JobisJob*/
+#box-83 {
+    display: block;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 3px 9.2px 0.8px rgba(8, 26, 82, 0.14);
+    border-style: none;
+    border-radius: 13px;
+    left: 588px;
+    top: 135px;
+    z-index: 173;
+    width: 200px;
+    height: 120px;
+    position: absolute;
+}
+#box83-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+}
+
+#image-296 {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 42px;
+    top: 39px;
+    z-index: 174;
+    position: absolute;
+}
+
+/*Image6 FACEBOOK*/
+#box-84 {
+    display: block;
+    background: rgba(54,104,175,1);
+    border-style: none;
+    border-radius: 13px;
+    left: 1px;
+    top: 270px;
+    z-index: 175;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+
+#box-84-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+}
+
+/*Image7 */
+#box-85 {
+    display: block;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 3px 9.2px 0.8px rgba(8, 26, 82, 0.14);
+    border-style: none;
+    border-radius: 13px;
+    left: 243px;
+    top: 270px;
+    z-index: 177;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+
+#box-85-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+}
+#image-298 {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 66px;
+    top: 38.5px;
+    z-index: 178;
+    position: absolute;
+}
+
+/*image7 ZipRecruiter*/
+#box-86 {
+    display: block;
+    background: rgba(178,230,34,1);
+    border-style: none;
+    border-radius: 13px;
+    left: 485px;
+    top: 270px;
+    z-index: 179;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+#box-86-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+}
+#image-99 {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 35.5px;
+    top: 43px;
+    z-index: 180;
+    position: absolute;
+}
+
+/*Image8 Mitula */
+#box-87 {
+    display: block;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 3px 9.2px 0.8px rgba(8, 26, 82, 0.14);
+    border-style: none;
+    border-radius: 13px;
+    left: 41px;
+    top: 405px;
+    z-index: 181;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+
+#box-87-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+}
+
+#image-300 {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 42px;
+    top: 45.5px;
+    z-index: 182;
+    position: absolute;
+}
+
+/* Image9 NEXXT*/
+#box-88 {
+    display: block;
+    background: rgba(32,85,153,1);
+    border-style: none;
+    border-radius: 13px;
+    left: 283px;
+    top: 405px;
+    z-index: 183;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+
+#box-88-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+}
+#image-301 {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 37px;
+    top: 38px;
+    z-index: 184;
+    position: absolute;
+}
+
+/*Image10 ADZUNA*/
+#box-89 {
+    display: block;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 3px 9.2px 0.8px rgba(8, 26, 82, 0.14);
+    border-style: none;
+    border-radius: 13px;
+    left: 525px;
+    top: 405px;
+    z-index: 185;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+
+#box-89-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+}
+
+#image-302 {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 30px;
+    top: 38.5px;
+    z-index: 186;
+    position: absolute;
+}
+
+/*Image11 TWITTER*/
+
+#box-90 {
+    display: block;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 3px 9.2px 0.8px rgba(8, 26, 82, 0.14);
+    border-style: none;
+    border-radius: 13px;
+    left: 248px;
+    top: 540px;
+    z-index: 187;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+
+#box-90-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+}
+#image-303 {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 80px;
+    top: 32.5px;
+    z-index: 188;
+    position: absolute;
+}
+
+/*Image12 JOBRAPIDO */
+#box-91 {
+    display: block;
+    background: rgba(255,21,110,1);
+    border-style: none;
+    border-radius: 13px;
+    left: 490px;
+    top: 540px;
+    z-index: 189;
+    width: 227px;
+    height: 120px;
+    position: absolute;
+}
+#box-91-color-overlay {
+    position: absolute;
+    background: none;
+    border-radius: 13px;
+    height: 120px;
+    width: 227px;
+}
+#image-304 {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 42px;
+    top: 43px;
+    z-index: 190;
+    position: absolute;
+}
+
+/*Job Boards */
+#slider-wrapper {
+    overflow: hidden;
+    width: auto;
+    height: 80px;
+}
+
+#carousel-wrapper {
+    list-style: none;
+    justify-content: space-around;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#carousel-wrapper li img {
+    display: block;
+    margin: auto -10px auto -10px;
+}
+
+#button-previous {
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    width: auto;
+    margin-top: -15px;
+    /*padding: 16px;*/
+    color: #c1c1c1;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+}
+
+#button-next {
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    width: auto;
+    margin-top: -15px;
+    padding: 16px;
+    color: #c1c1c1;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    right: 0;
+    border-radius: 50%;
+}
+
+/* TEXT CONTENT */
+#text-28 {
+    left: 220px;
+    top: 100px;
+    display: block;
+    width: 820px;
+    position: absolute;
+}
+
+.text-28 {
+    text-align: center;
+    line-height: 43px;
+    font-family: "Proxima Nova RG", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    color: rgb(129, 132, 150);
+}
+
+#lp-code-130 {
+    left: 0px;
+    top: 172px;
+    display: block;
+    z-index: 75;
+    width: 1170px;
+    height: 39px;
+    position: absolute;
+}
+

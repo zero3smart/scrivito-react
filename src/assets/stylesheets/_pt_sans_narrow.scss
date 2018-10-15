@@ -1,0 +1,37 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('Proxima Nova Bold'),
+    url(../fonts/pt-sans-narrow/Proxima-Nova-Bold.woff) format('woff'),
+    url(../fonts/pt-sans-narrow/Proxima-Nova-Regular.woff) format('woff'),
+}
+/* latin */
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('Proxima Nova Bold'),
+    url(../fonts/pt-sans-narrow/Proxima-Nova-Regular.woff) format('woff'),
+    url(../fonts/pt-sans-narrow/Proxima-Nova-Bold.woff) format('woff'),
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Proxima Nova Bold'),  local('Proxima Nova Regular'),
+   url(../fonts/pt-sans-narrow/Proxima-Nova-Regular.woff) format('woff'),
+    url(../fonts/pt-sans-narrow/Proxima-Nova-Bold.woff) format('woff'),
+}
+/* latin */
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Proxima Nova Bold'), local('Proxima Nova Regular'),
+   url(../fonts/pt-sans-narrow/Proxima-Nova-Regular.woff) format('woff'),
+    url(../fonts/pt-sans-narrow/Proxima-Nova-Bold.woff) format('woff'),
+}
+
