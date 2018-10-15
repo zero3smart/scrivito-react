@@ -473,7 +473,7 @@ Everything you need Section
 #btn-1256 {
     border-style: solid;
     border-radius: 28px;
-    width: 198px;
+    width: 168px;
     height: 54px;
     background: rgba(0,152,219,0);
     box-shadow: none;
@@ -486,13 +486,36 @@ Everything you need Section
     font-style: normal;
     text-align: center;
     background-repeat: no-repeat;
-  }
+}
+
+#btn-1258 {
+    border-style: solid;
+    border-radius: 28px;
+    width: 168px;
+    height: 54px;
+    background: $primary;
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
 
 .btn-primary:hover {
   background: var(--primary-color-hover);
 }
 
+h2#regular {
+  color: $primary !important;
+}
 
+h2#basic, #premium {
+  color: $light-color2 !important;
+}
 
 .bg-light {
   background: var(--light-color);
@@ -1163,6 +1186,10 @@ MEDIA QUERIES
     margin-top: 200px;
   }
 
+  .subtitle {
+    font-size: 18px;
+  }
+
 }
 
 /* md <= 768px */
@@ -1220,6 +1247,10 @@ MEDIA QUERIES
   
   br {
     display: none;
+  }
+
+  h5.h4.text-left {
+    text-align: center;
   }
 
 }

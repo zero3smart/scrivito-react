@@ -420,7 +420,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
               <div className="card-body h-100">
                   <i><img className="mb mt-4" src={ require("../../assets/images/icons/icon021.png") } /></i>
                   <p className="small-text">Basic</p>
-                  <h2 className="pricing-card-title">£50</h2>
+                  <h2 className="pricing-card-title" id="basic">£50</h2>
                   <ul className="list-unstyled mt-3 mb-4">
                       <li className="text-bold">per month</li>
                   </ul>
@@ -437,12 +437,12 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
               <div className="card-body h-100">
                   <i><img className="mb-1 mt-2" style={{marginTop:'-6px'}} src={ require("../../assets/images/icons/icon022.png") } /></i>
                   <p className="small-text">Regular</p>
-                  <h2 className="pricing-card-title" style={{color:'rgba(70,173,38,1)'}}>£100</h2>
+                  <h2 className="pricing-card-title" id="regular">£100</h2>
                   <ul className="list-unstyled mt-3 mb-4">
                     <li className="text-bold">per month</li>
                   </ul>
                   <p className="mb-4">3 Job Per Month</p>
-                  <button className="btn button-32675 button-32679 mb-4">Get Started</button>
+                  <button className="mb-4" id="btn-1258">Get Started</button>
               </div>
             </div>
           </div>
@@ -451,7 +451,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
             <div className="card-body h-100">
               <i><img className="mb mt-4" src={ require("../../assets/images/icons/icon023.png") } /></i>
               <p className="small-text">Premium</p>
-              <h2 className="pricing-card-title">£300</h2>
+              <h2 className="pricing-card-title" id="premium">£300</h2>
               <ul className="list-unstyled mt-3 mb-4">
                 <li className="text-bold">per month</li>
               </ul>
@@ -477,7 +477,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
 
     <div className="mt-4 pb-md-4 mx-auto">
         <div className="container">
-          <p className="lead-text text-center mb-4 mt-4">Features that every plan includes</p>
+          <p className="lead-text text-center mb-5 mt-4">Features that every plan includes</p>
         </div>
         <div className="container">
           <div className="row">
@@ -507,13 +507,13 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
               <div className="media">
                 <img className="mr-3" src={ Icon20 } />
                 <div className="media">
-                  <h5 className="mt-0">Premium Job Boards Boost</h5><br /><br />
+                  <h5 className="mt-0">Premium Job Boards Boost</h5><br /><br /><br />
                 </div>
               </div>
               <div className="media">
                 <img className="mr-3" src={ Icon20 } />
                 <div className="media">
-                  <h5 className="mt-0">Social Media Boost</h5><br /><br />
+                  <h5 className="mt-0">Social Media Boost</h5><br /><br /><br />
                 </div>
               </div>
               <div className="media">
