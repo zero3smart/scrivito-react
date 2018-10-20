@@ -33,6 +33,13 @@ import Premier from "../../assets/images/clients/premier-oil.original.png";
 import Hewlett from "../../assets/images/clients/hewlett-packard.original.png";
 import Masabi from "../../assets/images/clients/masabi.original.png";
 
+import Question from "../../assets/images/icons/question.png";
+
+import Testimonial1 from "../../assets/images/icons/testimonial1.png";
+import Testimonial2 from "../../assets/images/icons/Testimonial2.png";
+import Testimonial3 from "../../assets/images/icons/testimonial3.png";
+
+
 Scrivito.provideComponent("Homepage", ({ page }) => (
   <div id="header"><div id="lp-pom-block-8"></div> <br /><br />
     <Scrivito.ContentTag tag="div" content={page} attribute="body" />
@@ -40,23 +47,23 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
       <div className="d-flex flex-column flex-md-row align-items-center" id="navbar">
       <img className="my-0 mr-md-auto" src={ require("../../assets/logo.png") } />
         <nav className="my-2 my-md-0 mr-md-3 navbar-font">
-          <a className="p-2 text-dark log-in" href="#">Your Pricing</a>
-          <a className="p-2 text-dark pricing" href="#">Log In</a>
+          <a className="p-4 text-dark log-in" href="#">Your Pricing</a>
+          <a className="p-4 text-dark pricing" href="#">Log In</a>
         </nav>
         <a id="btn-1254" href="#" target="_self"><span>Create An Account</span></a>
       </div>
     </div>
-      <Scrivito.ContentTag content={ page } attribute="header" /><br /><br />
+      <Scrivito.ContentTag content={ page } id="header" /><br /><br /><br />
       <div className="container" id="main">
       <div className="row hero-content pt-lg-6 pb-lg-6">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12"><br />
             <h1 className="title mb-4 mt-5">Post Your Jobs To 300+ Job Sites In Less 
                 Than 5 Minutes</h1>
             <p className="text-md-left">• &nbsp; &nbsp; Post Jobs To Local, National Niche Sites With 1 Click</p>
             <p className="text-md-left">• &nbsp; &nbsp;Attract Local Candidates</p>
             <p className="text-md-left">• &nbsp; &nbsp;Advertise Any Vacancy</p>
             <p className="text-md-left">• &nbsp; &nbsp;Our "Ninja" Engine Will Guarantee <br /> &nbsp; &nbsp; &nbsp;Premium Visibility On The Best Job Sites </p>
-            <div><a className="btn btn-success" href="#" target="_self">Post Your Jobs</a></div>
+            <div><a className="btn btn-success" style={{marginTop:'40px', marginBottom:'40px'}} href="#" target="_self">Post Your Jobs</a></div>
           </div>
           <div className="col-md-6 col-sm-12 text-center" id="boxes1">
             <div id="boxes">
@@ -118,6 +125,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
         </div>
       </div>
 
+      <div className="block" id="block-27">
       <div>
         <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
           <div className="container">
@@ -127,8 +135,8 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
         </div>
       </div>
 
-      <div className="container">
-        <div className="row" style={{marginTop:'20px'}} data-interval="90000">
+      <div className="container" style={{height:'80px'}}>
+        <div className="row" style={{marginTop:'20px'}}>
           <div className="col-md-12">
             <div id="Carousel" className="carousel slide">
               <div className="carousel-inner">
@@ -162,17 +170,20 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
           </div>
         </div>
       </div>
+      </div>
+
+      <div className="container"><hr /></div>
 
        <section id="place">
-        <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
-          <div className="container"><h2 className="super-title mt-5">Everything You Need In One Place</h2></div>
+        <div className="pricing-header px-3 py-3 pt-md-5 mx-auto text-center text-28">
+          <div className="container"><h2 className="super-title">Everything You Need In One Place</h2></div>
         </div>
         <div className="container">
           <div className="row">
             <div className="col-md-4 py-4">
                 <div className="card h-100 card2 mb-4 box-shadow text-center">
                     <div className="card-body">
-                      <i><img className="mb mt" src={ require("../../assets/images/icons/icon1.png") } /></i>
+                      <i><img className="mb mt" src={ require("../../assets/images/icons/icon1.png") } onClick={() => this.handleClick()}/></i>
                       <h5 className="card-title">Access up to 300+ Job Boards</h5>
                       <p className="card-text">Distribute your vacancy to a wide network of specialist, premium and free job boards - all with a single click</p>
                     </div>
@@ -194,8 +205,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
                   <div className="card-body">
                       <i><img className="mb mt" src={ require("../../assets/images/icons/icon3.png") } /></i>
                       <h5 className="card-title">Video Cover Letters</h5>
-                      <p className="card-text">Candidates can apply via video, slashing your CV review time, helping you to fill <br /> 
-                          jobs faster.</p>
+                      <p className="card-text">Candidates can apply via video, slashing your CV review time, helping you to fill jobs faster.</p>
                     </div>
                 </div>
               </div>
@@ -235,14 +245,14 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
 
         <div className="form-row text-center">
             <div className="col-12">
-                <a className="btn btn-success btn-bottom mt-4" href="#" target="_self">Post Your Jobs</a>
+                <a className="btn btn-success btn-bottom mt-4 mb-4" href="#" target="_self">Post Your Jobs</a>
             </div>
          </div><br />
         </section>
 
         <section id="level" className="bg-light">
           <div className="container text-center block-content">
-            <h3 className="mt-4 mb2" style={{fontSize: '18px'}}>Talent Ninja is an all-in-one platform with a <strong>high level of automation. <br /> </strong>  We work with the best performing job networks and social sites <br /> globally, all with a <strong>focus on:</strong> 
+            <h3 className="mt-4 mb2">Talent Ninja is an all-in-one platform with a <strong>high level of automation. <br /> </strong>  We work with the best performing job networks and social sites <br /> globally, all with a <strong>focus on:</strong> 
             </h3>
           </div>
           <div className="container block-content">
@@ -286,7 +296,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
             </div>
             
             <div className="container">
-              <div className="row" style={{marginTop:'20px'}} data-interval="90000">
+              <div className="row" style={{marginTop:'20px'}}>
                   <div className="col-md-12">
                     <div id="Carousel1" className="carousel slide">
                         <div className="carousel-inner">
@@ -311,8 +321,8 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
                         </div>
                       </div>
 
-                      <div id="button-previous" className="left carousel-control-prev" href="#Carousel1" role="button" data-slide="prev">❬</div>
-                      <div id="button-next" className="right carousel-control-next" role="button" data-slide="next" href="#Carousel1">❭</div>
+                      <div id="button-previous" className="left carousel-control-prev">❬</div>
+                      <div id="button-next" className="right carousel-control-next">❭</div>
     
                     </div>
                 </div>
@@ -323,43 +333,36 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
 
        <section className="bg-light" id="TalentNinja">
           <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
-            <div className="container"><h2 className="mt-5">Talent Ninja is as easy as <strong>1, 2, 3</strong></h2></div>
+            <div className="container"><h2>Talent Ninja is as easy as <strong style={{fontFamily:'Proxima Nova Bold'}} >1, 2, 3</strong></h2></div>
           </div>
           <div className="container">
-            <div className="row">
-              <div className="col-md-4 my-4">
-                  <div className="card card2 mb-4 box-shadow text-center">
-                      <div className="card-body h-100">
-                        <i><img className="mb mt" src={ require("../../assets/images/icons/step1.png") } /></i>
-                        <h6 className="small-text3 mb-1">STEP 1</h6>
-                        <h5 className="card-title">Register Your Account</h5>
-                        <p className="card-text mb-4">Distribute your vacancy to a wide network of specialist, premium and free job boards - all with a single click</p>
-                      </div>
-                  </div>
+            <div className="card-deck mb-3 text-center">
+              <div className="card card2 mb-4 box-shadow">
+                <div className="card-body">
+                  <i><img className="mb mt" src={ require("../../assets/images/icons/step1.png") } /></i>
+                  <h5 className="small-text3 mb-1">STEP 1</h5>
+                  <h5 className="card-title">Register Your Account</h5>
+                  <p className="card-text">Fill out our step-by-step process to register an account. The whole process takes less than 3 minutes. </p>
                 </div>
+              </div>
 
-                <div className="col-md-4 my-4">
-                  <div className="card card2 mx-auto mb-4 box-shadow text-center">
-                      <div className="card-body h-100">
-                      <i><img className="mb mt" src={ require("../../assets/images/icons/step2.png") } /></i>
-                      <h6 className="small-text3 mb-1">STEP 2</h6>
-                      <h5 className="card-title">Post Your Jobs</h5>
-                      <p className="card-text mb-4">See what's driving your traffic. Measure key metrics to make data-driven decisions and keep your social recruiting on track.</p>
-                    </div>
-                  </div>
+              <div className="card card2 mb-4 box-shadow">
+                  <div className="card-body">
+                  <i><img className="mb mt" src={ require("../../assets/images/icons/step2.png") } /></i>
+                  <h5 className="small-text3 mb-1">STEP 2</h5>
+                  <h5 className="card-title">Post Your Jobs</h5>
+                  <p className="card-text">With a single click, our powerful technology sends your job to 300+ job sites and social media channels across the web.</p>
                 </div>
+              </div>
 
-                <div className="col-md-4 my-4">
-                  <div className="card card2 mx-auto mb-4 box-shadow text-center">
-                    <div className="card-body h-100">
-                        <i><img className="mb mt" src={ require("../../assets/images/icons/step3.png") } /></i>
-                        <h6 className="small-text3 mb-1">STEP 3</h6>
-                        <h5 className="card-title">Receive Great Candidates</h5>
-                        <p className="card-text mb-4">Candidates can apply via video, slashing your CV review time, helping you to fill <br /> 
-                            jobs faster.</p>
-                      </div>
-                  </div>
+              <div className="card card2 mb-4 box-shadow">
+                <div className="card-body">
+                  <i><img className="mb mt" src={ require("../../assets/images/icons/step3.png") } /></i>
+                  <h5 className="small-text3 mb-1">STEP 3</h5>
+                  <h5 className="card-title">Receive Great Candidates</h5>
+                  <p className="card-text">As candidates apply, their CV will be emailed to you and will appear on your Candidate Dashboard.</p>
                 </div>
+              </div>
 
             </div>
           </div>
@@ -379,23 +382,23 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
           </div>
         </div>
 
-        <div id="myBtnContainer">
+        <div id="">
           <ul className="container" id="tab-wrapper">
-            <li className="btn4 active" onclick="filterSelection('signup')"><a href="#tab1"><i className="fa fa-user"></i>SIGN UP</a></li>
-            <li className="btn4" onclick="filterSelection('dashboard')"><a href="#tab1"><i className="fa fa-cogs"></i>DASHBOARD</a></li>
-            <li className="btn4" onclick="filterSelection('jobs')"><a href="#tab2"><i className="fa fa-briefcase"></i>JOBS</a></li>
-            <li className="btn4" onclick="filterSelection('candidates')"><a href="#tab3"><i className="fa fa-id-badge"></i>CANDIDATES</a></li>
-            <li className="btn4" onclick="filterSelection('boots')"><a href="#tab4"><i className="fa fa-rocket"></i>BOOST</a></li>
-            <li className="btn4" onclick="filterSelection('careers')"><a href="#tab5"><i className="fab fa-black-tie"></i>CAREERS PAGE</a></li>
+            <li className="btn4"><a href="#tab1"><i className="fa fa-user"></i>SIGN UP</a></li>
+            <li className="btn4"><a href="#tab1"><i className="fa fa-cogs"></i>DASHBOARD</a></li>
+            <li className="btn4"><a href="#tab2"><i className="fa fa-briefcase"></i>JOBS</a></li>
+            <li className="btn4"><a href="#tab3"><i className="fa fa-id-badge"></i>CANDIDATES</a></li>
+            <li className="btn4"><a href="#tab4"><i className="fa fa-rocket"></i>BOOST</a></li>
+            <li className="btn4"><a href="#tab5"><i className="fa fa-black-tie"></i>CAREERS PAGE</a></li>
           </ul>
         </div>
 
         <div className="container">
-          <div className="">
-            <div className="column">
+          <div className="row">
+            <div className="col-md-6">
               <img src={ require("../../assets/images/features/explore_signup.png") } />
             </div>
-            <div className="column">
+            <div className="column2 col-md-6">
               <h2 className="mb-2">Easy Sign Up and Log In</h2>
               <p>Quickly sign up or login to Talent Ninja via LinkedIn, Facebook, <br /> Twitter, Google or email.</p>
             </div>
@@ -403,10 +406,13 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
 
           </div>
           <div className="col-md-12 text-center" id="button-feature" style={{marginTop:"40px"}} >
-            <a className="btn btn-success btn-top btn-bottom" href="#" target="_self">Post Your Jobs</a>
+            <a className="btn btn-success btn-top btn-bottom mb-5" href="#" target="_self">Post Your Jobs</a>
           </div>
       </section>
 
+      <div class="container">
+      <hr />
+      </div>
       <section id="pricing">
       <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
         <h2>Pricing</h2>
@@ -425,7 +431,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
                       <li className="text-bold">per month</li>
                   </ul>
                   <p className="mb-4">1 Job Per Month</p>
-                  <button className=" mb-4" id="btn-1256">Get Started</button>
+                  <button className="btn mb-4" style={{padding:'0'}} id="btn-1256">Get Started</button>
               </div>
             </div>
           </div>
@@ -435,14 +441,14 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
                   <h4 className="my-0 font-weight-normal"><small className="small-text4">Most Popular</small></h4>
               </div>
               <div className="card-body h-100">
-                  <i><img className="mb-1 mt-2" style={{marginTop:'-6px'}} src={ require("../../assets/images/icons/icon022.png") } /></i>
+                  <i><img className="" style={{marginTop:'-8px'}} src={ require("../../assets/images/icons/icon022.png") } /></i>
                   <p className="small-text">Regular</p>
                   <h2 className="pricing-card-title" id="regular">£100</h2>
                   <ul className="list-unstyled mt-3 mb-4">
                     <li className="text-bold">per month</li>
                   </ul>
-                  <p className="mb-4">3 Job Per Month</p>
-                  <button className="mb-4" id="btn-1258">Get Started</button>
+                  <p className="mb-4">3 Jobs Per Month</p>
+                  <button className="btn mb-4" style={{padding:'0'}} id="btn-1258">Get Started</button>
               </div>
             </div>
           </div>
@@ -455,8 +461,8 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
               <ul className="list-unstyled mt-3 mb-4">
                 <li className="text-bold">per month</li>
               </ul>
-              <p className="mb-4">10 Job Per Month</p>
-              <button className="mb-4" id="btn-1256">Get Started</button>
+              <p className="mb-4">10 Jobs Per Month</p>
+              <button className="btn mb-4" style={{padding:'0'}} id="btn-1256" href="#" target="_self">Get Started</button>
             </div>
           </div>
           </div>
@@ -485,19 +491,19 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
             <div className="col-md-4">
               <div className="media">
                 <img className="mr-3" src={ Icon20 } />
-                <div className="media">
+                <div className="">
                   <h5 className="mt-0">Post To 300+ Job Boards With <br /> a Single Clic</h5>
                 </div>
               </div>
               <div className="media">
                 <img className="mr-3" src={ Icon20 } />
-                <div className="media">
+                <div className="">
                   <h5 className="mt-0">Post To LinkedIn, <br /> Twitter and Facebook</h5>
                 </div>
               </div>
               <div className="media">
                 <img className="mr-3" src={ Icon20 } />
-                <div className="media">
+                <div className="">
                   <h5 className="mt-0">Fully Responsive Job Adverts</h5>
                 </div>
               </div>
@@ -506,20 +512,20 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
             <div className="col-md-4">
               <div className="media">
                 <img className="mr-3" src={ Icon20 } />
-                <div className="media">
-                  <h5 className="mt-0">Premium Job Boards Boost</h5><br /><br /><br />
+                <div className="">
+                  <h5 className="mt-0">Premium Job Boards Boost</h5><br />
                 </div>
               </div>
               <div className="media">
                 <img className="mr-3" src={ Icon20 } />
-                <div className="media">
-                  <h5 className="mt-0">Social Media Boost</h5><br /><br /><br />
+                <div className="">
+                  <h5 className="mt-0">Social Media Boost</h5><br />
                 </div>
               </div>
               <div className="media">
                 <img className="mr-3" src={ Icon20 } />
-                <div className="media">
-                  <h5 className="mt-0">Performance Analytics</h5>
+                <div className="">
+                  <h5 className="mt-0" style={{marginBottom:'40px'}}>Performance Analytics</h5><br />
                 </div>
               </div>
             </div>
@@ -559,44 +565,39 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
         </div>
       </div>
         <div className="container">
-          <div className="row">
-            <div className="col-md-4 my-4">
-              <div className="card card2 box-shadow text-center">
-                <div className="card-body h-100">
-                  <i><img className="mb mt" src={ require("../../assets/images/icons/testimonial1.png") } /></i>
-                  <h5 className="card-title">Julian Schulz</h5>
-                  <h6 className="card-title">COO at BlueOptima</h6>
-                  <p className="card-text" style={{marginBottom:'36px'}}>“Very quick to setup 
-                      - Excellent value for money and a big time saver if you want to get the word out on multiple job boards 
-                      - Good variety of candidates compared to using one single job board"</p>
+          <div className="card-deck mb-3 text-center">
+            <div className="card card2 box-shadow">
+              <div className="card-body">
+                <i><img className="mb mt" src={ Testimonial1 } /></i>
+                <h5 className="card-title" style={{fontSize: '22px', marginBottom:'0'}}>Julian Schulz</h5>
+                <h6 className="card-title" style={{color: 'rgb(70, 173, 38)'}}>COO at BlueOptima</h6>
+                <p className="card-text">“Very quick to setup<br/> 
+                    - Excellent value for money and a big time saver if you want to get the word out on multiple job boards<br/> 
+                    - Good variety of candidates compared to using one single job board"</p>
                 </div>
               </div>
-            </div>
   
-            <div className="col-md-4 my-4">
-              <div className="card card2 box-shadow text-center">
-                <div className="card-body h-100">
-                  <i><img className="mb mt" src={ require("../../assets/images/icons/testimonial2.png") } /></i>
-                  <h5 className="card-title">Rebecca Rhew's</h5>
-                  <h6 className="card-title">Talent Acquisition at Goodwall</h6>
-                  <p className="card-text" style={{marginBottom:'15px'}}>“Easy to use, good website layout, wide range of candidates, and excellent customer service. It only took a few minutes to get my job posted, and I appreciate the broad reach of the posting. Posting analytics are very user friendly.”</p>
+              <div className="card card2 box-shadow">
+              <div className="card-body">
+                <i><img className="mb mt" src={ Testimonial2 } /></i>
+                <h5 className="card-title" style={{fontSize: '22px', marginBottom:'0'}}>Rebecca Rhew's</h5>
+                <h6 className="card-title" style={{color: 'rgb(70, 173, 38)'}}>Talent Acquisition at Goodwall</h6>
+                <p className="card-text">“Easy to use, good website layout, wide range of candidates, 
+                and excellent customer service. It only took a few minutes to get my job posted, and I appreciate the broad reach of 
+                the posting. Posting analytics are very user friendly.”</p>
                 </div>
               </div>
-            </div>
   
-            <div className="col-md-4 my-4">
-              <div className="card card2 box-shadow text-center">
-                <div className="card-body h-100">
-                  <i><img className="mb mt" src={ require("../../assets/images/icons/testimonial3.png") } /></i>
-                  <h5 className="card-title">Heidi Raymond</h5>
-                  <h6 className="card-title">Human Resources Recruiter at <br/> Manatee County Government</h6>
-                  <p className="card-text">
-                      Heidi Raymond
-                      
-                      “I love how easy it is to use. It only takes a few minutes for us to advertise a job and then candidates start to come through. They have great support if we need help with anything like tweaking our adverts for better candidates.”</p>
+              <div className="card card2 box-shadow">
+              <div className="card-body">
+                <i><img className="mb mt" src={ Testimonial3 } /></i>
+                <h5 className="card-title" style={{fontSize: '22px', marginBottom:'0'}}>Heidi Raymond</h5>
+                <h6 className="card-title" style={{color: 'rgb(70, 173, 38)', lineHeight:'18px'}}>Human Resources Recruiter at Manatee County Government</h6>
+                <p className="card-text">“I love how easy it is to use. It only takes a few minutes for 
+                us to advertise a job and then candidates start to come through. They have great support if we need help with anything 
+                like tweaking our adverts for better candidates.”</p>
                 </div>
               </div>
-            </div>
   
           </div>
         </div>
@@ -606,10 +607,127 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
             <a className="btn btn-success mt-2 mb-4" href="#" target="_self">Post Your Jobs</a>
           </div>
         </div>
+      </section>
 
-    </section>
+      <section id="faqs" className="faqs" >
+      <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
+        <h2 className="mt-4 mb-4" style={{fontWeight:'bold'}}>FAQ</h2>
+      </div>
 
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="media md546">
+              <img className="mr-3" src={ Question } />
+              <div className="media-body">
+                  <h5 className="mt-0 mb-1" style={{lineHeight:'31px'}}>Where are my jobs advertised?</h5>
+                 <p>We work with over 300 premium, niche and organic job boards. Depending upon your requirements, location and job type, our engine will ensure you are visible on the best suited job boards for a great candidate response. This usually means a combination of local, industry specific and national job boards.</p>
+                </div>
+            </div>
+          </div>
 
+          <div className="col-md-6">
+            <div className="box-210-overlay">
+              <div className="media md546">
+                <img className="mr-3" src={ Question } />
+                <div className="media-body">
+                  <h5 className="mt-0 mb-1" style={{lineHeight:'31px'}}>How does it work?</h5>
+                  <p>Talent Ninja is a job distribution service. We have built an engine that effectively makes job boards compete for your jobs so you can get great job visibility whilst keeping the cost down.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-6">
+            <div className="media md546">
+              <img className="mr-3" src={ Question } />
+              <div className="media-body">
+                  <h5 className="mt-0 mb-1" style={{lineHeight:'31px'}}>Can I have a free trial?</h5>
+                 <p>Unfortunately not. We need to guarantee your job is advertised in the best places and this can’t be done for free.</p>
+                </div>
+            </div>
+          </div>
+
+          <div className="col-md-6">
+            <div className="box-210-overlay">
+              <div className="media md546">
+                <img className="mr-3" src={ Question } />
+                <div className="media-body">
+                  <h5 className="mt-0 mb-1" style={{lineHeight:'31px'}}>How long does it take to start getting candidates?</h5>
+                  <p>Typically candidates will start to arrive in 24 hours. This can vary depending upon your requirements.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-6">
+            <div className="media md546">
+              <img className="mr-3" src={ Question } />
+              <div className="media-body">
+                  <h5 className="mt-0 mb-1" style={{lineHeight:'31px'}}>How can I get in touch with Talent Ninja if I have any questions?</h5>
+                 <p>We have live chat, email support and are available via the phone if you need anything or just want to say hi!</p>
+                </div>
+            </div>
+          </div>
+
+          <div className="col-md-6">
+            <div className="box-210-overlay">
+              <div className="media md546">
+                <img className="mr-3" src={ Question } />
+                <div className="media-body">
+                  <h5 className="mt-0 mb-1" style={{lineHeight:'31px'}}>Will I need training to use the software?</h5>
+                  <p>No, not at all. We will guide you through everything and if you’re stuck, just let us know via live chat, email or phone.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section> <br />
+
+    <div className="container"><hr /></div>
+    <footer className="center-on-small-only pt-4 mb-4 my-md-5 pt-md-5">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3">
+            <img className="mb-4 logo-footer" src={ require("../../assets/logo-footer.png") } />
+          </div>
+          <div className="col-md-2">
+            <h5 className="mb-2">Links</h5>
+            <ul className="list-unstyled text-small">
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Terms feature</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+
+          <div className="col-md-2 mx-auto">
+            <h5 className="mb-2">Company</h5>
+            <ul className="list-unstyled text-small">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div className="col-md-4 mx-auto">
+            <h5 className="mb-2">Get in Touch</h5>
+            <ul className="list-unstyled text-small">
+              <li><a href="#" className="font-bold" style={{fontFamily:"Proxima Nova Bold", color:'rgba(140, 142, 157)'}}>Reach out and ask us anything you like!</a></li>
+              <li><a id="green-text" style={{fontFamily:"Proxima Nova Bold"}} href="#">hello@talent-ninja.com</a></li>
+              <li className="center-block">
+                <a href="#"><img className="mr-3" src={ require("../../assets/facebook.png") } /></a>
+                <a href="#"><img className="mr-3" src={ require("../../assets/twitter.png") } /></a>
+                <a href="#"><img className="mr-3" src={ require("../../assets/linkedin.png") } /></a>
+              </li>
+            </ul>
+          </div>
+
+          </div>
+        </div>
+      </footer>
 
       <div id="main">
       </div>
