@@ -38,7 +38,7 @@ html {
   }
 
   .container {
-    padding: 0 2.5rem;
+    padding: 0 2rem;
   }
   
   #lp-pom-block-8 {
@@ -218,7 +218,7 @@ html {
 
   #icon785 {
     margin: auto;
-    max-width: 200%;
+    max-width: 20px;
   }
 
   img,
@@ -1115,6 +1115,10 @@ MEDIA QUERIES
   #box-142 {
     width: 576px;
   }
+
+  div#first-line {
+    display: none;
+  }
   
 }
 
@@ -1123,10 +1127,11 @@ MEDIA QUERIES
 @media screen and (max-width: 568px) {
 
   #main h1 {
-    font-size: 35px;
+    margin-top: 0px !important;
+    font-size: 30px;
+    line-height: 35px;
     font-weight: 700;
     color: $secondary;
-    margin-top:0;
   }
 
   /*.title {
@@ -1139,11 +1144,11 @@ MEDIA QUERIES
   }
 
   .pricing {
-    margin-left: 18px;
+    margin-left: 44px;
   }
 
   #navbar span {
-    font-size: 18px;
+    font-size: 15px;
     position: absolute;
     display: block;
     left: 0;
@@ -1226,7 +1231,7 @@ MEDIA QUERIES
   #btn-1254 {
     border-style: solid;
     border-radius: 28px;
-    top: 110px;
+    top: 120px;
     z-index: 2;
     width: 198px;
     height: 54px;
@@ -1261,7 +1266,7 @@ MEDIA QUERIES
 
   #level h3 {
     font-size: 18px;
-    line-height: '31px';
+    line-height: 31px;
     text-align: center;
     color: $theme-grey;
     font-style: normal;
@@ -1300,8 +1305,20 @@ MEDIA QUERIES
   }
 
   .lead-text {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
+  }
+
+  h2#basic,
+  h2#regular,
+  h2#premium {
+    font-size: 40px !important;
+  }
+
+  .column2 h2,
+  .column2 p {
+    margin-top: 0px;
+    text-align: center;
   }
 
 }
@@ -1323,7 +1340,6 @@ MEDIA QUERIES
   }
 
   div#navbar {
-    margin-bottom: 40px;
     margin-top: 40px;
   }
 

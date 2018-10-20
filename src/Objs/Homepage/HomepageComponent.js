@@ -48,11 +48,12 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
       <img className="my-0 mr-md-auto" src={ require("../../assets/logo.png") } />
         <nav className="my-2 my-md-0 mr-md-3 navbar-font">
           <a className="p-4 text-dark log-in" href="#">Your Pricing</a>
-          <a className="p-4 text-dark pricing" href="#">Log In</a>
+          <a className="mt-4 text-dark pricing" href="#">Log In</a>
         </nav>
         <a id="btn-1254" href="#" target="_self"><span>Create An Account</span></a>
       </div>
     </div>
+    <div className="container mb-4" id="first-line"><hr /></div>
       <Scrivito.ContentTag content={ page } id="header" /><br /><br /><br />
       <div className="container" id="main">
       <div className="row hero-content pt-lg-6 pb-lg-6">
@@ -63,7 +64,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
             <p className="text-md-left">• &nbsp; &nbsp;Attract Local Candidates</p>
             <p className="text-md-left">• &nbsp; &nbsp;Advertise Any Vacancy</p>
             <p className="text-md-left">• &nbsp; &nbsp;Our "Ninja" Engine Will Guarantee <br /> &nbsp; &nbsp; &nbsp;Premium Visibility On The Best Job Sites </p>
-            <div><a className="btn btn-success" style={{marginTop:'40px', marginBottom:'40px'}} href="#" target="_self">Post Your Jobs</a></div>
+            <div><a className="btn btn-success" style={{marginTop:'10px', marginBottom:'40px'}} href="#" target="_self">Post Your Jobs</a></div>
           </div>
           <div className="col-md-6 col-sm-12 text-center" id="boxes1">
             <div id="boxes">
@@ -180,7 +181,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-4 py-4">
+            <div className="col-md-4 py-2">
                 <div className="card h-100 card2 mb-4 box-shadow text-center">
                     <div className="card-body">
                       <i><img className="mb mt" src={ require("../../assets/images/icons/icon1.png") } onClick={() => this.handleClick()}/></i>
@@ -190,7 +191,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
                 </div>
               </div>
 
-              <div className="col-md-4 py-4">
+              <div className="col-md-4 py-2">
                 <div className="card h-100 card2 mx-auto mb-4 box-shadow text-center">
                     <div className="card-body h-200">
                     <i><img className="mb mt" src={ require("../../assets/images/icons/icon2.png") } /></i>
@@ -200,7 +201,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
                 </div>
               </div>
 
-              <div className="col-md-4 py-4">
+              <div className="col-md-4 py-2">
                 <div className="card card2 h-100 mx-auto mb-4 box-shadow text-center">
                   <div className="card-body">
                       <i><img className="mb mt" src={ require("../../assets/images/icons/icon3.png") } /></i>
@@ -210,7 +211,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
                 </div>
               </div>
 
-          <div className="col-md-4 py-4">
+          <div className="col-md-4 py-2">
             <div className="card card2 h-100 mx-auto mb-4 box-shadow text-center">
                 <div className="card-body">
                   <i><img className="mb mt" src={ require("../../assets/images/icons/icon4.png") } /></i>
@@ -219,7 +220,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
                 </div>
             </div>
           </div>
-          <div className="col-md-4 py-4">
+          <div className="col-md-4 py-2">
             <div className="card card2 h-100 mb-4 box-shadow text-center">
               <div className="card-body">
                 <i><img className="mb mt" src={ require("../../assets/images/icons/icon5.png") } /></i>
@@ -229,7 +230,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
             </div>
           </div>
 
-          <div className="col-md-4 py-4">
+          <div className="col-md-4 py-2">
             <div className="card card2 h-100 mb-4 box-shadow text-center">
               <div className="card-body">
                 <i><img className="mb mt" src={ require("../../assets/images/icons/icon6.png") } /></i>
@@ -525,7 +526,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
               <div className="media">
                 <img className="mr-3" src={ Icon20 } />
                 <div className="">
-                  <h5 className="mt-0" style={{marginBottom:'40px'}}>Performance Analytics</h5><br />
+                  <h5 className="mt-0">Performance Analytics</h5><br />
                 </div>
               </div>
             </div>
