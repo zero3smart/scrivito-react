@@ -1,5 +1,6 @@
 import * as React from "react";
 import * as Scrivito from "scrivito";
+
 import Image1 from "../../assets/images/image1.png";
 import Image293 from "../../assets/images/image293.png";
 import Image294 from "../../assets/images/image294.png";
@@ -184,7 +185,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
             <div className="col-md-4 py-2">
                 <div className="card h-100 card2 mb-4 box-shadow text-center">
                     <div className="card-body">
-                      <i><img className="mb mt" src={ require("../../assets/images/icons/icon1.png") } onClick={() => this.handleClick()}/></i>
+                      <i><img className="mb mt" src={ require("../../assets/images/icons/icon1.png") } /></i>
                       <h5 className="card-title">Access up to 300+ Job Boards</h5>
                       <p className="card-text">Distribute your vacancy to a wide network of specialist, premium and free job boards - all with a single click</p>
                     </div>
@@ -411,7 +412,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
           </div>
       </section>
 
-      <div class="container">
+      <div className="container">
       <hr />
       </div>
       <section id="pricing">
