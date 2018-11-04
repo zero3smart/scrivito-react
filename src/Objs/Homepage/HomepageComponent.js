@@ -1,5 +1,7 @@
 import * as React from "react";
 import * as Scrivito from "scrivito";
+import Features from "./Features";
+import Footer from "./Footer";
 
 import Image1 from "../../assets/images/image1.png";
 import Image293 from "../../assets/images/image293.png";
@@ -376,41 +378,8 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
           </div>
         </section>
 
-
-        <section id="features">
-        <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
-          <div className="container">
-            <h2 className="mt-5">Explore Talent Ninja's <strong>Great Features</strong></h2>
-          </div>
-        </div>
-
-        <div id="">
-          <ul className="container" id="tab-wrapper">
-            <li className="btn4"><a href="#tab1"><i className="fa fa-user"></i>SIGN UP</a></li>
-            <li className="btn4"><a href="#tab1"><i className="fa fa-cogs"></i>DASHBOARD</a></li>
-            <li className="btn4"><a href="#tab2"><i className="fa fa-briefcase"></i>JOBS</a></li>
-            <li className="btn4"><a href="#tab3"><i className="fa fa-id-badge"></i>CANDIDATES</a></li>
-            <li className="btn4"><a href="#tab4"><i className="fa fa-rocket"></i>BOOST</a></li>
-            <li className="btn4"><a href="#tab5"><i className="fa fa-black-tie"></i>CAREERS PAGE</a></li>
-          </ul>
-        </div>
-
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <img src={ require("../../assets/images/features/explore_signup.png") } />
-            </div>
-            <div className="column2 col-md-6">
-              <h2 className="mb-2">Easy Sign Up and Log In</h2>
-              <p>Quickly sign up or login to Talent Ninja via LinkedIn, Facebook, <br /> Twitter, Google or email.</p>
-            </div>
-          </div>
-
-          </div>
-          <div className="col-md-12 text-center" id="button-feature" style={{marginTop:"40px"}} >
-            <a className="btn btn-success btn-top btn-bottom mb-5" href="#" target="_self">Post Your Jobs</a>
-          </div>
-      </section>
+        <Features />
+        
 
       <div className="container">
       <hr />
@@ -689,52 +658,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
 
     </section> <br />
 
-    <div className="container"><hr /></div>
-    <footer className="center-on-small-only pt-4 mb-4 my-md-5 pt-md-5">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-3">
-            <img className="mb-4 logo-footer" src={ require("../../assets/logo-footer.png") } />
-          </div>
-          <div className="col-md-2">
-            <h5 className="mb-2">Links</h5>
-            <ul className="list-unstyled text-small">
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Terms feature</a></li>
-              <li><a href="#">Privacy</a></li>
-            </ul>
-          </div>
-
-          <div className="col-md-2 mx-auto">
-            <h5 className="mb-2">Company</h5>
-            <ul className="list-unstyled text-small">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-          </div>
-
-          <div className="col-md-4 mx-auto">
-            <h5 className="mb-2">Get in Touch</h5>
-            <ul className="list-unstyled text-small">
-              <li><a href="#" className="font-bold" style={{fontFamily:"Proxima Nova Bold", color:'rgba(140, 142, 157)'}}>Reach out and ask us anything you like!</a></li>
-              <li><a id="green-text" style={{fontFamily:"Proxima Nova Bold"}} href="#">hello@talent-ninja.com</a></li>
-              <li className="center-block">
-                <a href="#"><img className="mr-3" src={ require("../../assets/facebook.png") } /></a>
-                <a href="#"><img className="mr-3" src={ require("../../assets/twitter.png") } /></a>
-                <a href="#"><img className="mr-3" src={ require("../../assets/linkedin.png") } /></a>
-              </li>
-            </ul>
-          </div>
-
-          </div>
-        </div>
-      </footer>
-
-      <div id="main">
-      </div>
-
-      <div id="Footer">
-      </div>
+    <Footer />
+      
   </div>
 ));

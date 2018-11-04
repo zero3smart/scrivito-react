@@ -820,6 +820,10 @@ h5 {
   color: rgb(86, 90, 112);
 }
 
+.filterDiv {
+  display: none;
+}
+
 /*******************************             
 TESTIMONIALS SECTION                       
 ********************************/
@@ -1098,6 +1102,103 @@ footer a {
 }
 
 /*------------------------------
+MODAL POP-UP             
+--------------------------------*/
+
+.modal {
+  position: fixed;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-header,
+.modal-body {
+  padding: 25px;
+}
+
+.modal-header h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+.modal-content {
+  margin: 10% auto;
+  border: none;
+  border-radius: 5px;
+  padding: 50px 40px;
+  background-color: #fff;
+  color: #000;
+
+  position: fixed;
+  padding-top: 20px;
+  width: 200%;
+  right: 0%;
+  top: 0;
+  left: -55%;
+  }
+
+.field {
+  background: #ebebeb;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.modal-body{
+	height: 350px;
+  overflow: hidden;
+  white-space: pre-line;
+}
+
+.modal .modal-body {
+  color: #464646;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.modal-body .text-header3 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.modal-body:hover{
+	overflow-y: auto;
+}
+
+#blue-text {
+  color: #337ab7;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.modal button span{
+  border: none;
+  color: #224e76;
+  cursor: pointer;
+  top: -8px;
+  font-size: 2em;
+}
+
+.modal button span:hover{
+  border: none;
+  color: #224e76;
+}
+
+.modal-body::-webkit-scrollbar {
+	width: 7px;
+}
+
+/*Barrita */
+.modal-::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+}
+
+/*------------------------------
 MEDIA QUERIES                
 --------------------------------*/
 
@@ -1119,7 +1220,6 @@ MEDIA QUERIES
   div#first-line {
     display: none;
   }
-  
 }
 
 /* sm <= 568px */
@@ -1321,6 +1421,11 @@ MEDIA QUERIES
     text-align: center;
   }
 
+  .modal-content {
+    width: auto;
+    left: 0%;
+  }
+
 }
 
 /* md <= 768px */
@@ -1386,6 +1491,11 @@ MEDIA QUERIES
 
   h5.h4.text-left {
     text-align: center;
+  }
+
+  .modal-content {
+    width: auto;
+    left: 0%;
   }
 
 }
