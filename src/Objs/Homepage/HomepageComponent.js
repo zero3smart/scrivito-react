@@ -1,7 +1,9 @@
 import * as React from "react";
 import * as Scrivito from "scrivito";
 import Features from "./Features";
+import Carousel from "./Carousel";
 import Footer from "./Footer";
+import Greatfeatures from "./Greatfeatures";
 
 import Image1 from "../../assets/images/image1.png";
 import Image293 from "../../assets/images/image293.png";
@@ -378,7 +380,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
           </div>
         </section>
 
-        <Features />
+        <Greatfeatures />
         
 
       <div className="container">
@@ -397,7 +399,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
               <div className="card-body h-100">
                   <i><img className="mb mt-4" src={ require("../../assets/images/icons/icon021.png") } /></i>
                   <p className="small-text">Basic</p>
-                  <h2 className="pricing-card-title" id="basic">£50</h2>
+                  <h2 className="pricing-card-title" id="basic">£50 </h2>
                   <ul className="list-unstyled mt-3 mb-4">
                       <li className="text-bold">per month</li>
                   </ul>
@@ -657,7 +659,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
       </div>
 
     </section> <br />
-
+    <Carousel />
     <Footer />
       
   </div>

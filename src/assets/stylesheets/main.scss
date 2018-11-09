@@ -687,6 +687,14 @@ section#features .container {
   display: block;
 }
 
+#categoryFilter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+  color: red;
+}
+
 /*******************************             
 PRICING SECTION                       
 ********************************/
