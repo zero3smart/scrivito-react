@@ -1,18 +1,18 @@
 .greadfeatures {
-   display: block;
+   /*display: block;
     margin: 0px 20px 0px 20px;
-    text-align: center;
+    text-align: center;*/
     cursor: pointer;
-    font-family: "Proxima Nova Regular", sans-serif;
+    /*font-family: "Proxima Nova Regular", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     text-decoration: none;
-    color: #8C8E9D;
+    color: #8C8E9D;*/
 }
 
 #nav-pills {
-    color: #8C8E9D;
+    color: $light-color;
     font-family: 'Proxima Nova RG', sans-serif;
     font-size: 18px;
     padding-bottom: 20px;
@@ -21,6 +21,10 @@
 
 a .fa {
     margin-right: 10px;
+}
+
+a .fa:hover {
+    color: $primary;
 }
 
 ul {
@@ -42,5 +46,11 @@ ul {
     text-align: left;
 }
 
+.greadfeatures span {
+    color: $light-color;
+}
 
+.greadfeatures span:hover {
+    color: $primary;
+}
 

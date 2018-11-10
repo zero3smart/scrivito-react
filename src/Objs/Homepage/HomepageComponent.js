@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as Scrivito from "scrivito";
-import Features from "./Features";
-import Carousel from "./Carousel";
 import Footer from "./Footer";
 import Greatfeatures from "./Greatfeatures";
+import Carousel from "./Carousel";
+import Example from "./Example";
 
 import Image1 from "../../assets/images/image1.png";
 import Image293 from "../../assets/images/image293.png";
@@ -291,51 +291,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
           </div>
         </section> 
 
-        <section id="clients">
-        <div>
-            <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
-              <div className="container">
-                <h2 className="pt-4">Our Clients</h2>
-              <p className="subtitle">Great companies who trust Talent Ninja</p>
-              <div><img className="clients" img className="clients" src={ Clients } /></div>
-              </div>
-            </div>
-            
-            <div className="container">
-              <div className="row" style={{marginTop:'20px'}}>
-                  <div className="col-md-12">
-                    <div id="Carousel1" className="carousel slide">
-                        <div className="carousel-inner">
-                          <div className="sp carousel-item active">
-                            <ul className="container row size" id="carousel-wrapper">
-                              <li><img style={{maxWidth:'100%'}} src={ Springboard } /></li>
-                              <li><img src={ Archer } /></li>
-                              <li><img src={ Major } /></li>
-                              <li><img src={ Taxify } /></li>
-                              <li><img src={ Hoyt } /></li>
-                            </ul>
-                          </div>
-
-                          <div className="sp carousel-item">
-                          <ul className="container row size" id="carousel-wrapper">
-                            <li><img style={{maxWidth:'100%'}} src={ Nobly } /></li>
-                            <li><img src={ Fish } /></li>
-                            <li><img src={ Premier } /></li>
-                            <li><img src={ Hewlett } /></li>
-                            <li><img src={ Masabi } /></li>
-                          </ul>
-                        </div>
-                      </div>
-
-                      <div id="button-previous" className="left carousel-control-prev">❬</div>
-                      <div id="button-next" className="right carousel-control-next">❭</div>
-    
-                    </div>
-                </div>
-              </div>
-          </div>
-        </div> 
-      </section>
+        <Carousel />
 
        <section className="bg-light" id="TalentNinja">
           <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
@@ -659,7 +615,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => (
       </div>
 
     </section> <br />
-    <Carousel />
+    <Example />
     <Footer />
       
   </div>

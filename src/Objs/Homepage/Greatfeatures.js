@@ -157,8 +157,10 @@ export default class Greatfeatures extends React.Component {
                 </TabPane>
                 </TabContent>
 
-                <div className="col-md-12 text-center" id="button-feature" style={{marginTop:"40px"}} >
-                    <a className="btn btn-success btn-top btn-bottom mb-5" href="#" target="_self">Post Your Jobs</a>
+                <div className="form-row text-center">
+                    <div className="col-12">
+                        <a className="btn btn-success btn-bottom mt-4 mb-4" href="#" target="_self">Post Your Jobs</a>
+                    </div>
                 </div>
                 
         </div>
