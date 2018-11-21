@@ -23,7 +23,7 @@ class Footer extends React.Component {
                 <div className="col-md-2 mx-auto">
                     <h5 className="mb-2">Company</h5>
                     <ul className="list-unstyled text-small">
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="/about">About Us</a></li>
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">Blog</a></li>
                     </ul>

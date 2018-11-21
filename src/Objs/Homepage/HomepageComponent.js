@@ -114,9 +114,9 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                     <img className="my-0 mr-md-auto" src={require("../../assets/logo.png")}/>
                     <nav className="my-2 my-md-0 mr-md-3 navbar-font">
                         <a className="p-4 text-dark log-in" href="#">Your Pricing</a>
-                        <a className="mt-4 text-dark pricing" href="#">Log In</a>
+                        <a className="mt-4 text-dark pricing" href="https://talent-ninja.com/home/auth/login">Log In</a>
                     </nav>
-                    <a id="btn-1254" href="#" target="_self"><span>Create An Account</span></a>
+                    <a id="btn-1254" href="https://talent-ninja.com/home/auth/signup" target="_self"><span>Create An Account</span></a>
                 </div>
             </div>
             <div className="container mb-4" id="first-line">
@@ -134,7 +134,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                         <p className="text-md-left">• &nbsp; &nbsp;Advertise Any Vacancy</p>
                         <p className="text-md-left">• &nbsp; &nbsp;Our "Ninja" Engine Will Guarantee
                             <br/> &nbsp; &nbsp; &nbsp;Premium Visibility On The Best Job Sites </p>
-                        <div><a className="btn btn-success" style={{marginTop: '10px', marginBottom: '40px'}} href="#"
+                        <div><a className="btn btn-success" style={{marginTop: '10px', marginBottom: '40px'}} href="https://talent-ninja.com/home/auth/signup"
                                 target="_self">Post Your Jobs</a></div>
                     </div>
                     <div className="col-md-6 col-sm-12 text-center" id="boxes1">
