@@ -67,7 +67,7 @@
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
-  top: 0;
+  top: 10% !important;
   bottom: 0;
   // Use flex for alignment (1-3)
   display: flex; // 1. allow flex styles

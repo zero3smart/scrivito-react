@@ -2,8 +2,6 @@ import * as React from "react";
 import Privacy from "./Privacy";
 
 class Footer extends React.Component {
-    
-
     render() {
         return (
             <div className="Footer">
@@ -18,7 +16,6 @@ class Footer extends React.Component {
                     <h5 className="mb-2">Links</h5>
                     <ul className="list-unstyled text-small">
                     <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#">Terms feature</a></li>
                     <li><Privacy/></li>
                     </ul>
                 </div>
