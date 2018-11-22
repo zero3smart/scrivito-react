@@ -3094,7 +3094,14 @@ img.cookie-img {
   }
 }
 
-
 .about-title-color-green {
   color: #03ac34;
+}
+
+.terms-of-service-body {
+  height: 350px;
+  //position: absolute;
+  //top: 0;
+  overflow-y: scroll;
+  padding-right: 25px;
 }

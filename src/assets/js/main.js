@@ -1,5 +1,4 @@
 (function() {
-    debugger;
 	var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
   	// handle successfully request / response
