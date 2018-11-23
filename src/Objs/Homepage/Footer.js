@@ -21,7 +21,7 @@ class Footer extends React.Component {
                                     <li><Privacy/></li>
                                 </ul>
                             </div>
-                            
+
                             <div className="col-md-2 mx-auto">
                                 <h5 className="mb-2">Company</h5>
                                 <ul className="list-unstyled text-small">
@@ -30,26 +30,26 @@ class Footer extends React.Component {
                                     <li><a href="#">Blog</a></li>
                                 </ul>
                             </div>
-                            
+
                             <div className="col-md-4 mx-auto">
                                 <h5 className="mb-2">Get in Touch</h5>
                                 <ul className="list-unstyled text-small">
                                     <li><a href="#" className="font-bold" style={{fontFamily:"Proxima Nova Bold", color:'rgba(140, 142, 157)'}}>Reach out and ask us anything you like!</a></li>
                                     <li><a id="green-text" style={{fontFamily:"Proxima Nova Bold"}} href="#">hello@talent-ninja.com</a></li>
                                     <li className="center-block">
-                                        <a href="#"><img className="mr-3" src={ require("../../assets/facebook.png") } /></a>
-                                        <a href="#"><img className="mr-3" src={ require("../../assets/twitter.png") } /></a>
-                                        <a href="#"><img className="mr-3" src={ require("../../assets/linkedin.png") } /></a>
+                                        <a href="https://www.linkedin.com/company/talent-ninja-ltd"><img className="mr-3" src={ require("../../assets/facebook.png") } /></a>
+                                        <a href="https://www.facebook.com/WeareTalentNinja"><img className="mr-3" src={ require("../../assets/twitter.png") } /></a>
+                                        <a href="https://twitter.com/_talentninja"><img className="mr-3" src={ require("../../assets/linkedin.png") } /></a>
                                     </li>
                                 </ul>
                             </div>
-                        
+
                         </div>
                     </div>
                 </footer>
-            
+
             </div>
-        
+
         )
     }
 }

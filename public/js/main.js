@@ -1,12 +1,14 @@
-(function() {
+(function () {
     document.getElementById("your-pricing").addEventListener("click", moveToPricing);
 
     function moveToPricing(e) {
         e.preventDefault();
+
         alert('ok');
         var elem = document.getElementById("pricing");
         var pos = 0;
         var id = setInterval(frame, 5);
+
         function frame() {
             if (pos == elem.offsetTop()) {
                 clearInterval(id);
@@ -18,7 +20,7 @@
     }
 
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         // handle successfully request / response
         if (this.readyState == 4 && this.status == 200) {
             let plans = JSON.parse(this.responseText);
@@ -31,16 +33,16 @@
             // - currencySymbol: our system supports difference currencies, we detect currency based on their IP address on backend, therefore currencySymbol needs to be used from responsed data
             // - pricing: difference currency has difference pricing
             // - jobCredit: the number of posted jobs customer will be able to use once they subscribe
-            debugger;
 
             let pricingCardTitles = document.getElementsByClassName('pricing-card-title');
             // pricingCardTitles expects to have the same length as classified plans above
-            for (let i = 0; i < pricingCardTitles.length; ++ i) {
+            for (let i = 0; i < pricingCardTitles.length; ++i) {
                 // update its corresponding HTML
                 pricingCardTitles[i].innerHTML = monthlyPlans[i].currencySymbol + monthlyPlans[i].pricing + ' <small class="text-muted">/ mo</small>';
             }
         }
     };
+
     xhttp.open("GET", "https://api.talent-ninja.com/plans", true);
     xhttp.send();
 })();

@@ -28,7 +28,7 @@ export default class Greatfeatures extends React.Component {
                     <h2 className="mt-5">Explore Talent Ninja's <strong>Great Features</strong></h2>
                 </div>
             </div>
-            
+
             <Nav nav-pills nav-justified id="nav-pills">
                 <NavItem>
                     <NavLink
@@ -84,7 +84,7 @@ export default class Greatfeatures extends React.Component {
                     <span>CAREERS PAGE</span>
                     </NavLink>
                 </NavItem>
-                
+
                 </Nav>
                 <TabContent activeTab={this.state.activeTab}>
                 <TabPane tabId="1">
@@ -159,10 +159,10 @@ export default class Greatfeatures extends React.Component {
 
                 <div className="form-row text-center">
                     <div className="col-12">
-                        <a className="btn btn-success btn-bottom mt-4 mb-4" href="#" target="_self">Post Your Jobs</a>
+                        <a className="btn btn-success btn-bottom mt-4 mb-4" href="https://talent-ninja.com/home/auth/signup" target="_self">Post Your Jobs</a>
                     </div>
                 </div>
-                
+
         </div>
       </div>
     );

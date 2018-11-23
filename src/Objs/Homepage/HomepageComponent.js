@@ -49,20 +49,19 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import Slider from 'react-slick';
 
-
 Scrivito.provideComponent("Homepage", ({ page }) => {
     const PrevArrow = ({ onClick }) => (
         <div id="button-previous" onClick={onClick} className="slick-prev" href="#Carousel" role="button" data-slide="prev">
             ❬
         </div>
     );
-    
+
     const NextArrow = ({ onClick }) => (
         <div id="button-next" onClick={onClick} className="slick-next" role="button" data-slide="next" href="#Carousel">
             ❭
         </div>
     );
-    
+
     const settings = {
         // centerMode: true,
         // centerPadding: '59px',
@@ -103,7 +102,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
             }
         ]
     };
-    
+
     return (
         <div id="header">
             <div id="lp-pom-block-8"></div>
@@ -193,10 +192,10 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                             </div>
                         </div>
                     </div>
-                
+
                 </div>
             </div>
-            
+
             <div className="block" id="block-27">
                 <div>
                     <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
@@ -207,7 +206,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="container" style={{height: '80px'}}>
                     <div className="row" style={{marginTop: '20px'}}>
                         <div className="col-md-12">
@@ -231,7 +230,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 <div className="carousel-item">
                                     <img src={Image300}/>
                                 </div>
-    
+
                                 <div className="carousel-item">
                                     <img src={Image300}/>
                                 </div>
@@ -250,8 +249,8 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 <div className="carousel-item">
                                     <img src={Linkedin}/>
                                 </div>
-                                
-                                
+
+
                                 {/*<div className="carousel-inner">*/}
                                     {/*<div className="sp carousel-item active">*/}
                                         {/*<ul className="container row size" id="carousel-wrapper">*/}
@@ -274,9 +273,9 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                             {/*<li><img src={Linkedin}/></li>*/}
                                         {/*</ul>*/}
                                     {/*</div>*/}
-                                
+
                                 {/*</div>*/}
-                                
+
                                 {/*<div id="button-previous" className="left carousel-control-prev" href="#Carousel"*/}
                                      {/*role="button" data-slide="prev">❬*/}
                                 {/*</div>*/}
@@ -288,11 +287,11 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                     </div>
                 </div>
             </div>
-            
+
             <div className="container">
                 <hr/>
             </div>
-            
+
             <section id="place">
                 <div className="pricing-header px-3 py-3 pt-md-5 mx-auto text-center text-28">
                     <div className="container"><h2 className="super-title">Everything You Need In One Place</h2></div>
@@ -309,7 +308,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-md-4 py-2">
                             <div className="card h-100 card2 mx-auto mb-4 box-shadow text-center">
                                 <div className="card-body h-200">
@@ -320,7 +319,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-md-4 py-2">
                             <div className="card card2 h-100 mx-auto mb-4 box-shadow text-center">
                                 <div className="card-body">
@@ -331,7 +330,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-md-4 py-2">
                             <div className="card card2 h-100 mx-auto mb-4 box-shadow text-center">
                                 <div className="card-body">
@@ -352,7 +351,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-md-4 py-2">
                             <div className="card card2 h-100 mb-4 box-shadow text-center">
                                 <div className="card-body">
@@ -364,19 +363,19 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                    
-                    
+
+
                     </div>
                 </div>
-                
+
                 <div className="form-row text-center">
                     <div className="col-12">
-                        <a className="btn btn-success btn-bottom mt-4 mb-4" href="#" target="_self">Post Your Jobs</a>
+                        <a className="btn btn-success btn-bottom mt-4 mb-4" href="https://talent-ninja.com/home/auth/signup" target="_self">Post Your Jobs</a>
                     </div>
                 </div>
                 <br/>
             </section>
-            
+
             <section id="level" className="bg-light">
                 <div className="container text-center block-content">
                     <h3 className="mt-4 mb2">Talent Ninja is an all-in-one platform with a <strong>high level of
@@ -415,9 +414,9 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                     </div>
                 </div>
             </section>
-            
+
             <Carousel/>
-            
+
             <section className="bg-light" id="TalentNinja">
                 <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
                     <div className="container"><h2>Talent Ninja is as easy as <strong
@@ -434,7 +433,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                     whole process takes less than 3 minutes. </p>
                             </div>
                         </div>
-                        
+
                         <div className="card card2 mb-4 box-shadow">
                             <div className="card-body">
                                 <i><img className="mb mt" src={require("../../assets/images/icons/step2.png")}/></i>
@@ -444,7 +443,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                     300+ job sites and social media channels across the web.</p>
                             </div>
                         </div>
-                        
+
                         <div className="card card2 mb-4 box-shadow">
                             <div className="card-body">
                                 <i><img className="mb mt" src={require("../../assets/images/icons/step3.png")}/></i>
@@ -454,21 +453,21 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                     appear on your Candidate Dashboard.</p>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
-                
+
                 <div className="form-row text-center">
                     <div className="col-12">
-                        <a className="btn btn-success btn-bottom mt-4 mb" href="#" target="_self"
+                        <a className="btn btn-success btn-bottom mt-4 mb" href="https://talent-ninja.com/home/auth/signup" target="_self"
                            style={{marginBottom: '40px'}}>Post Your Jobs</a>
                     </div>
                 </div>
             </section>
-            
+
             <Greatfeatures/>
-            
-            
+
+
             <div className="container">
                 <hr/>
             </div>
@@ -477,7 +476,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                     <h2>Pricing</h2>
                     <p className="small-text3 mt-5">Billed Monthly</p>
                 </div>
-                
+
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
@@ -490,8 +489,9 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                         <li className="text-bold">per month</li>
                                     </ul>
                                     <p className="mb-4">1 Job Per Month</p>
-                                    <button className="btn mb-4" style={{padding: '0'}} id="btn-1256">Get Started
-                                    </button>
+                                    <a className="btn mb-4" href="https://talent-ninja.com/home/auth/signup" id="btn-1256">
+                                        Get Started
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -511,8 +511,9 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                         <li className="text-bold">per month</li>
                                     </ul>
                                     <p className="mb-4">3 Jobs Per Month</p>
-                                    <button className="btn mb-4" style={{padding: '0'}} id="btn-1258">Get Started
-                                    </button>
+                                    <a className="btn mb-4" href="https://talent-ninja.com/home/auth/signup" id="btn-1258">
+                                        Get Started
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -526,17 +527,17 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                         <li className="text-bold">per month</li>
                                     </ul>
                                     <p className="mb-4">10 Jobs Per Month</p>
-                                    <button className="btn mb-4" style={{padding: '0'}} id="btn-1256" href="#"
-                                            target="_self">Get Started
-                                    </button>
+                                    <a className="btn mb-4" href="https://talent-ninja.com/home/auth/signup" id="btn-1256" target="_self">
+                                        Get Started
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
                 <br/>
-                
+
                 <div id="guarantee">
                     <div className="container text-center block-content" id="box-142">
                         <div className="row">
@@ -548,14 +549,14 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="mt-4 pb-md-4 mx-auto">
                     <div className="container">
                         <p className="lead-text text-center mb-5 mt-4">Features that every plan includes</p>
                     </div>
                     <div className="container">
                         <div className="row">
-                            
+
                             <div className="col-md-4">
                                 <div className="media">
                                     <img className="mr-3" src={Icon20}/>
@@ -576,7 +577,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className="col-md-4">
                                 <div className="media">
                                     <img className="mr-3" src={Icon20}/>
@@ -597,7 +598,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className="col-md-4">
                                 <div className="media">
                                     <img className="mr-3" src={Icon20}/>
@@ -619,13 +620,13 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                     </div>
                                 </div>
                             </div>
-                        
+
                         </div>
                     </div>
-                
+
                 </div>
             </section>
-            
+
             <section id="testimonials" className="bg-light">
                 <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
                     <div className="container">
@@ -648,7 +649,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                     - Good variety of candidates compared to using one single job board"</p>
                             </div>
                         </div>
-                        
+
                         <div className="card card2 box-shadow">
                             <div className="card-body">
                                 <i><img className="mb mt" src={Testimonial2}/></i>
@@ -662,7 +663,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                     the posting. Posting analytics are very user friendly.”</p>
                             </div>
                         </div>
-                        
+
                         <div className="card card2 box-shadow">
                             <div className="card-body">
                                 <i><img className="mb mt" src={Testimonial3}/></i>
@@ -676,22 +677,22 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                     like tweaking our adverts for better candidates.”</p>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
-                
+
                 <div className="form-row text-center">
                     <div className="col-12">
-                        <a className="btn btn-success mt-2 mb-4" href="#" target="_self">Post Your Jobs</a>
+                        <a className="btn btn-success mt-2 mb-4" href="https://talent-ninja.com/home/auth/signup" target="_self">Post Your Jobs</a>
                     </div>
                 </div>
             </section>
-            
+
             <section id="faqs" className="faqs">
                 <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
                     <h2 className="mt-4 mb-4" style={{fontWeight: 'bold'}}>FAQ</h2>
                 </div>
-                
+
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
@@ -707,7 +708,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-md-6">
                             <div className="box-210-overlay">
                                 <div className="media md546">
@@ -721,7 +722,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-md-6">
                             <div className="media md546">
                                 <img className="mr-3" src={Question}/>
@@ -732,7 +733,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-md-6">
                             <div className="box-210-overlay">
                                 <div className="media md546">
@@ -746,7 +747,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-md-6">
                             <div className="media md546">
                                 <img className="mr-3" src={Question}/>
@@ -758,7 +759,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-md-6">
                             <div className="box-210-overlay">
                                 <div className="media md546">
@@ -772,15 +773,15 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
-            
+
             </section>
             <br/>
             <Example/>
             <Footer/>
-        
+
         </div>
     );
 });
