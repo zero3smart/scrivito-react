@@ -3105,3 +3105,13 @@ img.cookie-img {
   overflow-y: scroll;
   padding-right: 25px;
 }
+
+#pricing {
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+}
+
+#pricing:target {
+  -webkit-transform: translateY( 0px );
+  transform: translateY( 0px );
+}
