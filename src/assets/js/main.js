@@ -1,21 +1,21 @@
 (function() {
-    document.getElementById("your-pricing").addEventListener("click", moveToPricing);
+    // document.getElementById("your-pricing").addEventListener("click", moveToPricing);
 
-    function moveToPricing(e) {
-        e.preventDefault();
-        alert('ok');
-        var elem = document.getElementById("pricing");
-        var pos = 0;
-        var id = setInterval(frame, 5);
-        function frame() {
-            if (pos == elem.offsetTop()) {
-                clearInterval(id);
-            } else {
-                pos++;
-                window.scrollTo(0, pos);
-            }
-        }
-    }
+    // function moveToPricing(e) {
+    //     e.preventDefault();
+    //     alert('ok');
+    //     var elem = document.getElementById("pricing");
+    //     var pos = 0;
+    //     var id = setInterval(frame, 5);
+    //     function frame() {
+    //         if (pos == elem.offsetTop()) {
+    //             clearInterval(id);
+    //         } else {
+    //             pos++;
+    //             window.scrollTo(0, pos);
+    //         }
+    //     }
+    // }
 
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
