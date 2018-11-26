@@ -8,6 +8,7 @@ import NavigationSection from "./Navigation/NavigationSection";
 import ScrollToNextSectionLink from "./Navigation/ScrollToNextSectionLink";
 import isVideoObj from "../utils/isVideoObj";
 import urlFromBinary from "../utils/urlFromBinary";
+import HeaderComponent from "../Objs/Homepage/HeaderComponent";
 
 function ActualNavigation({
   isLandingPage,
@@ -158,24 +159,7 @@ class Navigation extends React.Component {
 
     return (
       <React.Fragment>
-        <Scrivito.BackgroundImageTag
-          tag="section"
-          className={topSectionClassNames.join(" ")}
-          style={topSectionStyle}
-        >
-          <BackgroundVideo videoUrl={videoUrl} />
-          <ActualNavigation
-            isLandingPage={isLandingPage}
-            bootstrapNavbarClassNames={bootstrapNavbarClassNames}
-            toggleSearch={this.toggleSearch}
-            showSearch={this.state.showSearch}
-            scrolled={this.state.scrolled}
-            navigationStyle={navigationStyle}
-          />
-          <NavigationSection heightClassName={heightClassName} />
-          <ScrollToNextSectionLink heightClassName={heightClassName} />
-        </Scrivito.BackgroundImageTag>
-        <ScrollElement name="nextSection" />
+        <HeaderComponent />
       </React.Fragment>
     );
   }

@@ -2,7 +2,7 @@ import * as React from "react";
 import Privacy from "./Privacy";
 import TermsOfService from "./TermsOfService";
 
-class Footer extends React.Component {
+class FooterComponent extends React.Component {
     render() {
         return (
             <div className="Footer">
@@ -54,4 +54,4 @@ class Footer extends React.Component {
     }
 }
 
-export default Footer;
+export default FooterComponent;

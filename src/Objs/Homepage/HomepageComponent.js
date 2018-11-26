@@ -1,6 +1,7 @@
 import * as React from "react";
 import * as Scrivito from "scrivito";
-import Footer from "./Footer";
+import FooterComponent from "./FooterComponent";
+import HeaderComponent from "./HeaderComponent";
 import Greatfeatures from "./Greatfeatures";
 import Carousel from "./Carousel";
 import Example from "./Example";
@@ -105,23 +106,8 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
 
     return (
         <div id="header">
-            <div id="lp-pom-block-8"></div>
-            <br/><br/>
             <Scrivito.ContentTag tag="div" content={page} attribute="body"/>
-            <div className="container">
-                <div className="d-flex flex-column flex-md-row align-items-center" id="navbar">
-                    <img className="my-0 mr-md-auto" src={require("../../assets/logo.png")}/>
-                    <nav className="my-2 my-md-0 mr-md-3 navbar-font">
-                        <a className="p-4 text-dark log-in" id="your-pricing" href="#pricing">Your Pricing</a>
-                        <a className="mt-4 text-dark pricing" href="https://talent-ninja.com/home/auth/login">Log In</a>
-                    </nav>
-                    <a id="btn-1254" href="https://talent-ninja.com/home/auth/signup" target="_self"><span>Create An Account</span></a>
-                </div>
-            </div>
-            <div className="container mb-4" id="first-line">
-                <hr/>
-            </div>
-            <Scrivito.ContentTag content={page} id="header"/><br/><br/><br/>
+            {/* <HeaderComponent /> */}
             <div className="container" id="main">
                 <div className="row hero-content pt-lg-6 pb-lg-6">
                     <div className="col-md-6 col-sm-12"><br/>
@@ -192,7 +178,6 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -249,7 +234,6 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 <div className="carousel-item">
                                     <img src={Linkedin}/>
                                 </div>
-
 
                                 {/*<div className="carousel-inner">*/}
                                     {/*<div className="sp carousel-item active">*/}
@@ -780,8 +764,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
             </section>
             <br/>
             <Example/>
-            <Footer/>
-
+            {/* <FooterComponent/> */}
         </div>
     );
 });
