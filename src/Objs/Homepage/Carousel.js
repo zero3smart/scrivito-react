@@ -17,16 +17,16 @@ class Carousel  extends Component {
         const PrevArrow = ({ onClick }) => (
             <div id="button-previous" onClick={onClick} className="slick-prev carousel-control-prev" href="#Carousel1" role="button" data-slide="prev">❬</div>
         );
-    
+
         const NextArrow = ({ onClick }) => (
             <div id="button-next" onClick={onClick} className="slick-next carousel-control-next" role="button" data-slide="next" href="#Carousel1">❭</div>
         );
-    
+
         const settings = {
             // centerMode: true,
             // centerPadding: '59px',
             slidesToShow: 5,
-            speed: 300,
+            speed: 1000,
             // autoplaySpeed: 2000,
             infinite: true,
             // autoplay: true,
@@ -36,7 +36,7 @@ class Carousel  extends Component {
             prevArrow: <PrevArrow />,
             nextArrow: <NextArrow />
         };
-        
+
         return (
             <div className="Carousel">
                 <section id="clients">
@@ -48,7 +48,7 @@ class Carousel  extends Component {
                                 <div></div>
                             </div>
                         </div>
-                        
+
                         <div className="container">
                             <div className="row" style={{marginTop:'20px'}} data-interval="90000">
                                 <div className="col-md-12">
@@ -69,7 +69,7 @@ class Carousel  extends Component {
                                         <div className="carousel-item clients">
                                             <img src={ Hoyt } />
                                         </div>
-    
+
                                         <div className="carousel-item clients">
                                             <img src={ Nobly } />
                                         </div>
@@ -114,7 +114,7 @@ class Carousel  extends Component {
                         </div>
                     </div>
                 </section>
-            
+
             </div>
         );
     }

@@ -2,6 +2,7 @@ import * as React from "react";
 import * as Scrivito from "scrivito";
 import FooterComponent from "./FooterComponent";
 import HeaderComponent from "./HeaderComponent";
+import Pricing from "./Pricing";
 import Greatfeatures from "./Greatfeatures";
 import Carousel from "./Carousel";
 import Example from "./Example";
@@ -24,20 +25,10 @@ import Linkedin from "../../assets/images/linkedin.png";
 import Glassdoor from "../../assets/images/glassdoor.png";
 import Facebook from "../../assets/images/facebook.png";
 import Partners from "../../assets/images/partners.gif";
-import Clients from "../../assets/images/clients.gif";
+
 
 import Icon20 from "../../assets/images/icons/icon20.png";
-import Springboard from "../../assets/images/clients/springboard.original.png";
-import Archer from "../../assets/images/clients/archer.original.png";
-import Major from "../../assets/images/clients/major-drilling.original.png";
-import Taxify from "../../assets/images/clients/taxify.original.png";
-import Hoyt from "../../assets/images/clients/hoyt.original.png";
 
-import Nobly from "../../assets/images/clients/nobly.original.png";
-import Fish from "../../assets/images/clients/fish.original.png";
-import Premier from "../../assets/images/clients/premier-oil.original.png";
-import Hewlett from "../../assets/images/clients/hewlett-packard.original.png";
-import Masabi from "../../assets/images/clients/masabi.original.png";
 
 import Question from "../../assets/images/icons/question.png";
 
@@ -67,7 +58,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
         // centerMode: true,
         // centerPadding: '59px',
         slidesToShow: 6,
-        speed: 300,
+        speed: 1000,
         // autoplaySpeed: 2000,
         infinite: true,
         // autoplay: true,
@@ -455,161 +446,8 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
             <div className="container">
                 <hr/>
             </div>
-            <section id="pricing">
-                <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
-                    <h2>Pricing</h2>
-                    <p className="small-text3 mt-5">Billed Monthly</p>
-                </div>
+            <Pricing />
 
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-4">
-                            <div className="card mb-4 box-shadow text-center">
-                                <div className="card-body h-100">
-                                    <i><img className="mb mt-4" src={require("../../assets/images/icons/icon021.png")}/></i>
-                                    <p className="small-text">Basic</p>
-                                    <h2 className="pricing-card-title" id="basic">£50 </h2>
-                                    <ul className="list-unstyled mt-3 mb-4">
-                                        <li className="text-bold">per month</li>
-                                    </ul>
-                                    <p className="mb-4">1 Job Per Month</p>
-                                    <a className="btn mb-4" href="https://talent-ninja.com/home/auth/signup" id="btn-1256">
-                                        Get Started
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className="card mb-4 box-shadow text-center">
-                                <div className="card-header" style={{background: 'rgba(70,173,38,1'}}>
-                                    <h4 className="my-0 font-weight-normal">
-                                        <small className="small-text4">Most Popular</small>
-                                    </h4>
-                                </div>
-                                <div className="card-body h-100">
-                                    <i><img className="" style={{marginTop: '-8px'}}
-                                            src={require("../../assets/images/icons/icon022.png")}/></i>
-                                    <p className="small-text">Regular</p>
-                                    <h2 className="pricing-card-title" id="regular">£100</h2>
-                                    <ul className="list-unstyled mt-3 mb-4">
-                                        <li className="text-bold">per month</li>
-                                    </ul>
-                                    <p className="mb-4">3 Jobs Per Month</p>
-                                    <a className="btn mb-4" href="https://talent-ninja.com/home/auth/signup" id="btn-1258">
-                                        Get Started
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className="card mb-4 box-shadow text-center">
-                                <div className="card-body h-100">
-                                    <i><img className="mb mt-4" src={require("../../assets/images/icons/icon023.png")}/></i>
-                                    <p className="small-text">Premium</p>
-                                    <h2 className="pricing-card-title" id="premium">£300</h2>
-                                    <ul className="list-unstyled mt-3 mb-4">
-                                        <li className="text-bold">per month</li>
-                                    </ul>
-                                    <p className="mb-4">10 Jobs Per Month</p>
-                                    <a className="btn mb-4" href="https://talent-ninja.com/home/auth/signup" id="btn-1256" target="_self">
-                                        Get Started
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <br/>
-
-                <div id="guarantee">
-                    <div className="container text-center block-content" id="box-142">
-                        <div className="row">
-                            <div className="col-md-12 col-sm-12">
-                                <i><img className="mt-4" src={require("../../assets/images/icons/guarantee.png")}/></i>
-                                <div className=""><p>We guarantee a minimum of 5 candidates per job. <br/> If not, you
-                                    get your money back.</p></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="mt-4 pb-md-4 mx-auto">
-                    <div className="container">
-                        <p className="lead-text text-center mb-5 mt-4">Features that every plan includes</p>
-                    </div>
-                    <div className="container">
-                        <div className="row">
-
-                            <div className="col-md-4">
-                                <div className="media">
-                                    <img className="mr-3" src={Icon20}/>
-                                    <div className="">
-                                        <h5 className="mt-0">Post To 300+ Job Boards With <br/> a Single Clic</h5>
-                                    </div>
-                                </div>
-                                <div className="media">
-                                    <img className="mr-3" src={Icon20}/>
-                                    <div className="">
-                                        <h5 className="mt-0">Post To LinkedIn, <br/> Twitter and Facebook</h5>
-                                    </div>
-                                </div>
-                                <div className="media">
-                                    <img className="mr-3" src={Icon20}/>
-                                    <div className="">
-                                        <h5 className="mt-0">Fully Responsive Job Adverts</h5>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4">
-                                <div className="media">
-                                    <img className="mr-3" src={Icon20}/>
-                                    <div className="">
-                                        <h5 className="mt-0">Premium Job Boards Boost</h5><br/>
-                                    </div>
-                                </div>
-                                <div className="media">
-                                    <img className="mr-3" src={Icon20}/>
-                                    <div className="">
-                                        <h5 className="mt-0">Social Media Boost</h5><br/>
-                                    </div>
-                                </div>
-                                <div className="media">
-                                    <img className="mr-3" src={Icon20}/>
-                                    <div className="">
-                                        <h5 className="mt-0">Performance Analytics</h5><br/>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4">
-                                <div className="media">
-                                    <img className="mr-3" src={Icon20}/>
-                                    <div className="">
-                                        <h5 className="mt-0">Video Cover Letters</h5><br/>
-                                    </div>
-                                </div>
-                                <div className="media">
-                                    <img className="mr-3" src={Icon20}/>
-                                    <div className="">
-                                        <h5 className="mt-0">Multiple Job Templates</h5><br/>
-                                    </div>
-                                </div>
-                                <div className="media">
-                                    <img className="mr-3" src={Icon20}/>
-                                    <div className="">
-                                        <h5 className="mt-0" style={{marginBottom: '40px'}}>Branded Careers Page</h5>
-                                        <br/>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </section>
 
             <section id="testimonials" className="bg-light">
                 <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">

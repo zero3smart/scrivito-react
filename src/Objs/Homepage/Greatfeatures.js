@@ -35,7 +35,7 @@ export default class Greatfeatures extends React.Component {
                     className={classnames({ active: this.state.activeTab === '1' })}
                     onClick={() => { this.toggle('1'); }}
                     >
-                    <span class="icon is-small"><i className="fa fa-user"></i></span>
+                    <span className="icon is-small"><i className="fa fa-user"></i></span>
                     <span>SIGN UP</span>
                     </NavLink>
                 </NavItem>
@@ -44,7 +44,7 @@ export default class Greatfeatures extends React.Component {
                     className={classnames({ active: this.state.activeTab === '2' })}
                     onClick={() => { this.toggle('2'); }}
                     >
-                    <span class="icon is-small"><i className="fa fa-cogs"></i></span>
+                    <span className="icon is-small"><i className="fa fa-cogs"></i></span>
                     <span>DASHBOARD</span>
                     </NavLink>
                 </NavItem>
@@ -53,7 +53,7 @@ export default class Greatfeatures extends React.Component {
                     className={classnames({ active: this.state.activeTab === '3' })}
                     onClick={() => { this.toggle('3'); }}
                     >
-                    <span class="icon is-small"><i className="fa fa-briefcase"></i></span>
+                    <span className="icon is-small"><i className="fa fa-briefcase"></i></span>
                     <span>JOBS</span>
                     </NavLink>
                 </NavItem>
@@ -62,7 +62,7 @@ export default class Greatfeatures extends React.Component {
                     className={classnames({ active: this.state.activeTab === '4' })}
                     onClick={() => { this.toggle('4'); }}
                     >
-                    <span class="icon is-small"><i className="fa fa-id-badge"></i></span>
+                    <span className="icon is-small"><i className="fa fa-id-badge"></i></span>
                     <span>CANDIDATES</span>
                     </NavLink>
                 </NavItem>
@@ -71,7 +71,7 @@ export default class Greatfeatures extends React.Component {
                     className={classnames({ active: this.state.activeTab === '5' })}
                     onClick={() => { this.toggle('5'); }}
                     >
-                    <span class="icon is-small"><i className="fa fa-rocket"></i></span>
+                    <span className="icon is-small"><i className="fa fa-rocket"></i></span>
                     <span>BOOST</span>
                     </NavLink>
                 </NavItem>
@@ -80,7 +80,7 @@ export default class Greatfeatures extends React.Component {
                     className={classnames({ active: this.state.activeTab === '6' })}
                     onClick={() => { this.toggle('6'); }}
                     >
-                    <span class="icon is-small"><i className="fa fa-black-tie"></i></span>
+                    <span className="icon is-small"><i className="fa fa-black-tie"></i></span>
                     <span>CAREERS PAGE</span>
                     </NavLink>
                 </NavItem>

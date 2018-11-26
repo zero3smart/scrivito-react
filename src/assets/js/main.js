@@ -41,6 +41,7 @@
             }
         }
     };
+
     xhttp.open("GET", "https://api.talent-ninja.com/plans", true);
     xhttp.send();
 })();
