@@ -47,7 +47,7 @@ class Pricing extends React.Component {
     }
 
     componentDidMount() {
-        this.fetchPlans(true);
+        this.fetchPlans(false);
     }
 
     render() {
