@@ -72,7 +72,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    speed: 300,
+                    speed: 1000,
                     infinite: true,
                     slidesToScroll: 2,
                     variableWidth: true,
@@ -84,7 +84,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    speed: 300,
+                    speed: 1000,
                     infinite: true,
                     slidesToScroll: 1,
                     variableWidth: true,

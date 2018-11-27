@@ -37,9 +37,9 @@ class Pricing extends React.Component {
             for (let i = 0; i < pricingCardTitles.length; ++i) {
                 // update its corresponding HTML
                 if (planType == false)
-                    pricingCardTitles[i].innerHTML = monthlyPlans[i].currencySymbol + monthlyPlans[i].pricing + ' <small class="text-muted">/ mo</small>';
+                    pricingCardTitles[i].innerHTML = monthlyPlans[i].currencySymbol + monthlyPlans[i].pricing;
                 else
-                    pricingCardTitles[i].innerHTML = annuallyPlans[i].currencySymbol + annuallyPlans[i].pricing + ' <small class="text-muted">/ mo</small>';
+                    pricingCardTitles[i].innerHTML = annuallyPlans[i].currencySymbol + annuallyPlans[i].pricing;
             }
         }).catch(err => {
             console.log(err);
