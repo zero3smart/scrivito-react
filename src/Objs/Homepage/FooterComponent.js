@@ -26,7 +26,7 @@ class FooterComponent extends React.Component {
                                 <h5 className="mb-2">Company</h5>
                                 <ul className="list-unstyled text-small">
                                     <li><a href="/about">About Us</a></li>
-                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="https://careers.talent-ninja.com/" target="_blank">Careers</a></li>
                                     <li><a href="#">Blog</a></li>
                                 </ul>
                             </div>

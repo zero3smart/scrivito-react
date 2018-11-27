@@ -76,7 +76,7 @@ class Pricing extends React.Component {
                                     <p className="small-text">Basic</p>
                                     <h2 className="pricing-card-title" id="basic">£50 </h2>
                                     <ul className="list-unstyled mt-3 mb-4">
-                                        <li className="text-bold">per month</li>
+                                        <li className="text-bold">per {!this.state.plans ? 'month' : 'year'}</li>
                                     </ul>
                                     <p className="mb-4">1 Job Per Month</p>
                                     <a className="btn mb-4" href="https://talent-ninja.com/home/auth/signup" id="btn-1256">
@@ -98,7 +98,7 @@ class Pricing extends React.Component {
                                     <p className="small-text">Regular</p>
                                     <h2 className="pricing-card-title" id="regular">£100</h2>
                                     <ul className="list-unstyled mt-3 mb-4">
-                                        <li className="text-bold">per month</li>
+                                        <li className="text-bold">per {!this.state.plans ? 'month' : 'year'}</li>
                                     </ul>
                                     <p className="mb-4">3 Jobs Per Month</p>
                                     <a className="btn mb-4" href="https://talent-ninja.com/home/auth/signup" id="btn-1258">
@@ -114,7 +114,7 @@ class Pricing extends React.Component {
                                     <p className="small-text">Premium</p>
                                     <h2 className="pricing-card-title" id="premium">£300</h2>
                                     <ul className="list-unstyled mt-3 mb-4">
-                                        <li className="text-bold">per month</li>
+                                        <li className="text-bold">per {!this.state.plans ? 'month' : 'year'}</li>
                                     </ul>
                                     <p className="mb-4">10 Jobs Per Month</p>
                                     <a className="btn mb-4" href="https://talent-ninja.com/home/auth/signup" id="btn-1256" target="_self">
