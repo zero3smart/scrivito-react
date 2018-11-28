@@ -123,7 +123,6 @@ class Pricing extends React.Component {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <br/>
@@ -210,10 +209,8 @@ class Pricing extends React.Component {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </section>
         );

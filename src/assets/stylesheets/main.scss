@@ -9,7 +9,7 @@ html {
   .clear {
     clear: both;
   }
-  
+
   body {
     //font-family: "Proxima Nova Regular", sans-serif;
     font-family: Helvetica,Sans-Serif;
@@ -41,7 +41,7 @@ html {
   .container {
     padding: 0 2rem;
   }
-  
+
   #lp-pom-block-8 {
     background-color: $primary;
     border-style: none;
@@ -51,7 +51,7 @@ html {
     width: 100%;
     height: 8px;
   }
-  
+
   .container,
   .container-fluid {
     position: relative;
@@ -59,11 +59,11 @@ html {
   .container-fluid img {
     margin: 0;
   }
-  
+
   .container .container {
     width: auto;
   }
-  
+
   a {
     color: $primary;
     text-decoration: none;
@@ -84,11 +84,11 @@ html {
     color: #fff;
     background: $secondary;
   }
-  
+
   p {
     margin: 0 0 25px 0;
   }
-  
+
   h1,
   h2,
   h3,
@@ -108,7 +108,7 @@ html {
     padding: 0;
     line-height: 1.5;
   }
-  
+
   h1,
   .h1 {
     font-size: 60px;
@@ -142,7 +142,7 @@ html {
   .h6 {
     font-size: 14px;
   }
-  
+
   /*.title {
     font-size: 54px;
     font-weight: 700;
@@ -155,7 +155,7 @@ html {
     font-weight: 700;
     color: $secondary;
   }
-  
+
   .text-md-left {
     line-height: 24px;
     font-size: 18px;
@@ -164,7 +164,7 @@ html {
     font-weight: 400;
     font-style: normal;
   }
-  
+
   .b-bottom {
     display: block;
     position: relative;
@@ -194,8 +194,8 @@ html {
     right: 0%;
     margin: 0;
   }
-  
-  
+
+
   hr {
     margin: 20px 0;
     border: 0;
@@ -204,7 +204,7 @@ html {
     clear: both;
     position: relative;
   }
-  
+
   .strong {
     font-weight: 700;
   }
@@ -235,7 +235,7 @@ html {
     margin: 0 0 25px 15px;
     max-width: 50%;
   }
-  
+
   .no-padding {
     padding: 0 !important;
   }
@@ -255,7 +255,7 @@ html {
     margin-right: -15px;
     margin-left: -15px;
   }
-  
+
   mark,
   .mark {
     background-color: $secondary;
@@ -270,18 +270,18 @@ html {
   .bg-dark-image .small {
     color: rgba(255, 255, 255, 0.7) !important;
   }
-  
+
   .date,
   .author {
     font-size: 11px;
     padding-right: 5px;
     line-height: 1.5em;
   }
-  
+
   .text-greymiddle {
     color: $theme-greymiddle;
   }
-  
+
   .hero-bold {
     font-family: "Proxima Nova Regular", sans-serif;
     font-weight: 700;
@@ -306,13 +306,13 @@ html {
       font-size: 80px;
     }
   }
-  
+
   .logo {
     /* background: $logo-dark no-repeat center center / contain; height: 50px; */
     width: 150px;
     margin-bottom: 20px;
   }
-  
+
   .container-initial {
     position: initial !important;
   }
@@ -447,7 +447,7 @@ html {
 }
 
 /*--------------------------------------
-Everything you need Section 
+Everything you need Section
 ----------------------------------------*/
 
 .card2 {
@@ -497,7 +497,7 @@ p.card-text {
   left: 0px;
   top: 0px;
   z-index: 16;
-  width: 300px; 
+  width: 300px;
   height: 285px;
   position: absolute;
 }
@@ -639,7 +639,7 @@ section#features {
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 40px;
-  
+
 }
 
 .show {
@@ -693,7 +693,7 @@ section#features .fa,
   padding-top: 40px;
   /*height: 400px;*/
  /* border-top: 1px solid #f0f0f0;
-  font-family: 
+  font-family:
 }*/
 
 .column2 h2 {
@@ -725,8 +725,8 @@ section#features .container {
   color: red;
 }
 
-/*******************************             
-PRICING SECTION                       
+/*******************************
+PRICING SECTION
 ********************************/
 
 section#pricing {
@@ -862,13 +862,13 @@ h5 {
   display: none;
 }
 
-/*******************************             
-TESTIMONIALS SECTION                       
+/*******************************
+TESTIMONIALS SECTION
 ********************************/
 
 
-/*******************************             
-FAQS SECTION                       
+/*******************************
+FAQS SECTION
 ********************************/
 
 section#faqs h5 {
@@ -877,20 +877,20 @@ section#faqs h5 {
   font-style: normal;
   font-size: 24px;
   color: rgb(52, 55, 74);
-} 
+}
 
 section#faqs .media-body,
 section#faqs .small-height {
   font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 400;
-  font-style:normal; 
+  font-style:normal;
   font-size: 18px;
   color: rgb(140, 142, 157);
   line-height: 30px;
 }
 
-/*******************************             
-FOOTER                     
+/*******************************
+FOOTER
 ********************************/
 
 footer {
@@ -941,7 +941,7 @@ footer a:hover {
 }
 
 /*------------------------------
-LOGIN PAGE               
+LOGIN PAGE
 --------------------------------*/
 
 .welcome-page {
@@ -1140,7 +1140,7 @@ footer a {
 }
 
 /*------------------------------
-MODAL POP-UP             
+MODAL POP-UP
 --------------------------------*/
 
 .modal {
@@ -1238,7 +1238,7 @@ MODAL POP-UP
 }
 
 /*------------------------------
-MEDIA QUERIES                
+MEDIA QUERIES
 --------------------------------*/
 
 @media screen and (min-width: 600px) {
@@ -1264,6 +1264,10 @@ MEDIA QUERIES
 /* sm <= 568px */
 /*****************************************************************************/
 @media screen and (max-width: 568px) {
+  .slick-slider .slick-list {
+    margin: 0 79px;
+    width: 188px;
+  }
 
   #main h1 {
     margin-top: 0px !important;
@@ -1322,7 +1326,7 @@ MEDIA QUERIES
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    height: 240px;
+    // height: 240px;
   }
 
   #lp-pom-image-396 .lp-pom-image-container img {
@@ -1345,11 +1349,6 @@ MEDIA QUERIES
     border-style: none;
     border-radius: 0px;
     width: 227px;
-  }
-
-  #button-next,
-  #button-previous {
-    display: none;
   }
 
   .text-dark {
@@ -1523,7 +1522,7 @@ MEDIA QUERIES
   footer {
     text-align: center !important;
   }
-  
+
   br {
     display: none;
   }

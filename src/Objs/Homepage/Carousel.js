@@ -34,7 +34,33 @@ class Carousel  extends Component {
             variableWidth: true,
             // focusOnSelect: true,
             prevArrow: <PrevArrow />,
-            nextArrow: <NextArrow />
+            nextArrow: <NextArrow />,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        speed: 1000,
+                        infinite: true,
+                        slidesToScroll: 2,
+                        variableWidth: true,
+                        prevArrow: <PrevArrow />,
+                        nextArrow: <NextArrow />
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        speed: 1000,
+                        infinite: true,
+                        slidesToScroll: 1,
+                        variableWidth: true,
+                        prevArrow: <PrevArrow />,
+                        nextArrow: <NextArrow />
+                    }
+                }
+            ]
         };
 
         return (

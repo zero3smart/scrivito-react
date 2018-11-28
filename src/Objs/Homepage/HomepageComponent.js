@@ -110,8 +110,12 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                         <p className="text-md-left">• &nbsp; &nbsp;Advertise Any Vacancy</p>
                         <p className="text-md-left">• &nbsp; &nbsp;Our "Ninja" Engine Will Guarantee
                             <br/> &nbsp; &nbsp; &nbsp;Premium Visibility On The Best Job Sites </p>
-                        <div><a className="btn btn-success" style={{marginTop: '10px', marginBottom: '40px'}} href="https://talent-ninja.com/home/auth/signup"
-                                target="_self">Post Your Jobs</a></div>
+                        <div>
+                            <a className="btn btn-success"
+                               style={{marginTop: '10px', marginBottom: '40px'}}
+                               href="https://talent-ninja.com/home/auth/signup"
+                               target="_self">Post Your Jobs</a>
+                        </div>
                     </div>
                     <div className="col-md-6 col-sm-12 text-center" id="boxes1">
                         <div id="boxes">
@@ -177,8 +181,6 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                     <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
                         <div className="container">
                             <h2 className="pt-5 mb-2">Some of our Job Boards and Social Partners</h2>
-                            <div className="lp-pom-image-container mb-5"><img className="partners" src={Partners}/>
-                            </div>
                         </div>
                     </div>
                 </div>
