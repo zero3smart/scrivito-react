@@ -111,7 +111,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                             <li className="text-md-left">Advertise Any Vacancy</li>
                             <li className="text-md-left">Our "Ninja" Engine Will Guarantee<br/>Premium Visibility On The Best Job Sites</li>
                         </ul>
-                        <div className="col-12 text-center">
+                        <div>
                             <a className="btn btn-success"
                                style={{marginTop: '10px', marginBottom: '40px'}}
                                href="https://talent-ninja.com/home/auth/signup"
