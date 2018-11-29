@@ -4,7 +4,6 @@ import Archer from "../../assets/images/clients/archer.original.png";
 import Major from "../../assets/images/clients/major-drilling.original.png";
 import Taxify from "../../assets/images/clients/taxify.original.png";
 import Hoyt from "../../assets/images/clients/hoyt.original.png";
-
 import Nobly from "../../assets/images/clients/nobly.original.png";
 import Fish from "../../assets/images/clients/fish.original.png";
 import Premier from "../../assets/images/clients/premier-oil.original.png";
@@ -140,7 +139,6 @@ class Carousel  extends Component {
                         </div>
                     </div>
                 </section>
-
             </div>
         );
     }

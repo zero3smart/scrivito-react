@@ -9,13 +9,13 @@ import Example from "./Example";
 
 import Image1 from "../../assets/images/image1.png";
 import Image293 from "../../assets/images/image293.png";
-import Image294 from "../../assets/images/image294.png";
+import Neuvco from "../../assets/images/neuvco.png";
 import Image295 from "../../assets/images/image295.png";
 import Image296 from "../../assets/images/image296.png";
 import Image297 from "../../assets/images/image297.png";
-import Image298 from "../../assets/images/image298.png";
+import Jora from "../../assets/images/jora.png";
 import Image299 from "../../assets/images/image299.png";
-import Image300 from "../../assets/images/image300.png";
+import Mitula from "../../assets/images/mitula.png";
 import Image301 from "../../assets/images/image301.png";
 import Image302 from "../../assets/images/image302.png";
 import Image303 from "../../assets/images/image303.png";
@@ -102,15 +102,16 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
             <div className="container" id="main">
                 <div className="row hero-content pt-lg-6 pb-lg-6">
                     <div className="col-md-6 col-sm-12"><br/>
-                        <h1 className="title mb-4 mt-5">Post Your Jobs To 300+ Job Sites In Less
-                            Than 5 Minutes</h1>
-                        <p className="text-md-left">• &nbsp; &nbsp; Post Jobs To Local, National Niche Sites With 1
-                            Click</p>
-                        <p className="text-md-left">• &nbsp; &nbsp;Attract Local Candidates</p>
-                        <p className="text-md-left">• &nbsp; &nbsp;Advertise Any Vacancy</p>
-                        <p className="text-md-left">• &nbsp; &nbsp;Our "Ninja" Engine Will Guarantee
-                            <br/> &nbsp; &nbsp; &nbsp;Premium Visibility On The Best Job Sites </p>
-                        <div>
+                        <h1 className="title mb-4 mt-5">
+                            Post Your Jobs To 300+ Job Sites In Less Than 5 Minutes
+                        </h1>
+                        <ul className="post-jobs-description">
+                            <li className="text-md-left">Post Jobs To Local, National Niche Sites With 1 Click</li>
+                            <li className="text-md-left">Attract Local Candidates</li>
+                            <li className="text-md-left">Advertise Any Vacancy</li>
+                            <li className="text-md-left">Our "Ninja" Engine Will Guarantee<br/>Premium Visibility On The Best Job Sites</li>
+                        </ul>
+                        <div className="col-12 text-center">
                             <a className="btn btn-success"
                                style={{marginTop: '10px', marginBottom: '40px'}}
                                href="https://talent-ninja.com/home/auth/signup"
@@ -129,7 +130,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                             </div>
                             <div id="box-81">
                                 <div id="box81-color-overlay"></div>
-                                <div className="image image-container" id="image294"><img src={Image294}/></div>
+                                <div className="image image-container" id="image294"><img src={Neuvco}/></div>
                             </div>
                             <div id="box-82">
                                 <div id="box82-color-overlay"></div>
@@ -145,7 +146,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                             </div>
                             <div id="box-85">
                                 <div id="box85-color-overlay"></div>
-                                <div className="image image-container" id="image298"><img src={Image298}/></div>
+                                <div className="image image-container" id="Jora"><img src={Jora}/></div>
                             </div>
                             <div id="box-86">
                                 <div id="box86-color-overlay"></div>
@@ -153,7 +154,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                             </div>
                             <div id="box-87">
                                 <div id="box87-color-overlay"></div>
-                                <div className="image image-container" id="image300"><img src={Image300}/></div>
+                                <div className="image image-container" id="Mitula"><img src={Mitula}/></div>
                             </div>
                             <div id="box-88">
                                 <div id="box88-color-overlay"></div>
@@ -191,7 +192,7 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                             {/*<div id="Carousel" className="carousel slide">*/}
                             <Slider {...settings}>
                                 <div className="carousel-item">
-                                    <img src={Image294}/>
+                                    <img src={Neuvco}/>
                                 </div>
                                 <div className="carousel-item">
                                     <img src={Linkedin}/>
@@ -200,26 +201,26 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                     <img src={Glassdoor}/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={Image298}/>
+                                    <img src={Jora}/>
                                 </div>
                                 <div className="carousel-item">
                                     <img src={Facebook}/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={Image300}/>
+                                    <img src={Mitula}/>
                                 </div>
 
                                 <div className="carousel-item">
-                                    <img src={Image300}/>
+                                    <img src={Mitula}/>
                                 </div>
                                 <div className="carousel-item">
                                     <img src={Facebook}/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={Image298}/>
+                                    <img src={Jora}/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={Image294}/>
+                                    <img src={Neuvco}/>
                                 </div>
                                 <div className="carousel-item">
                                     <img src={Glassdoor}/>
@@ -234,17 +235,17 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                             {/*<li><img style={{maxWidth: '100%'}} src={Image294}/></li>*/}
                                             {/*<li><img src={Linkedin}/></li>*/}
                                             {/*<li><img src={Glassdoor}/></li>*/}
-                                            {/*<li><img src={Image298}/></li>*/}
+                                            {/*<li><img src={Jora}/></li>*/}
                                             {/*<li><img src={Facebook}/></li>*/}
-                                            {/*<li><img src={Image300}/></li>*/}
+                                            {/*<li><img src={Mitula}/></li>*/}
                                         {/*</ul>*/}
                                     {/*</div>*/}
                                     {/**/}
                                     {/*<div className="sp carousel-item">*/}
                                         {/*<ul className="container row size" id="carousel-wrapper">*/}
-                                            {/*<li><img style={{maxWidth: '100%'}} src={Image300}/></li>*/}
+                                            {/*<li><img style={{maxWidth: '100%'}} src={Mitula}/></li>*/}
                                             {/*<li><img src={Facebook}/></li>*/}
-                                            {/*<li><img src={Image298}/></li>*/}
+                                            {/*<li><img src={Jora}/></li>*/}
                                             {/*<li><img src={Image294}/></li>*/}
                                             {/*<li><img src={Glassdoor}/></li>*/}
                                             {/*<li><img src={Linkedin}/></li>*/}

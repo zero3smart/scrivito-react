@@ -398,7 +398,7 @@ html {
 
 .carousel-item {
   &.clients {
-    padding: 0 25px;
+    // padding: 0 25px;
   }
   img {
     display: block;
@@ -735,7 +735,11 @@ section#pricing {
   font-weight: 400;
   font-family: "Proxima Nova Regular", sans-serif;
   font-style: normal;
-  color: rgb(129, 132, 150)
+  color: rgb(129, 132, 150);
+
+  .two-months {
+
+  }
 }
 
 p .small-text {
@@ -1237,6 +1241,11 @@ MODAL POP-UP
 	border-radius: 5px;
 }
 
+.post-jobs-description {
+  li {
+    padding: 12px 0;
+  }
+}
 /*------------------------------
 MEDIA QUERIES
 --------------------------------*/
@@ -1264,8 +1273,32 @@ MEDIA QUERIES
 /* sm <= 568px */
 /*****************************************************************************/
 @media screen and (max-width: 568px) {
+  #button-previous,
+  #button-next {
+    padding: 0 !important;
+  }
+
+  #clients {
+    .carousel-item {
+      left: -9px;
+      top: -11px;
+
+      img {
+        margin: 0 !important;
+      }
+    }
+  }
+
+
+  #pricing {
+    .two-months {
+      display: block;
+      margin-top: 0 !important;
+    }
+  }
+
   .slick-slider .slick-list {
-    margin: 0 79px;
+    margin: 0 auto;
     width: 188px;
   }
 

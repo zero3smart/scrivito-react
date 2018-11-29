@@ -64,7 +64,7 @@ class Pricing extends React.Component {
                         color="default"
                     />
                     <span className="small-text3 mt-5" style={this.state.plans ? {} : {'color': '#818496'}}>Billed Annually - </span>
-                    <span className="small-text3 mt-5">2 Months Free</span>
+                    <span className="two-months small-text3 mt-5">2 Months Free</span>
                 </div>
 
                 <div className="container">
