@@ -98,7 +98,6 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
     return (
         <div id="header">
             <Scrivito.ContentTag tag="div" content={page} attribute="body"/>
-            {/* <HeaderComponent /> */}
             <div className="container" id="main">
                 <div className="row hero-content pt-lg-6 pb-lg-6">
                     <div className="col-md-6 col-sm-12"><br/>
@@ -228,38 +227,6 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 <div className="carousel-item">
                                     <img src={Linkedin}/>
                                 </div>
-
-                                {/*<div className="carousel-inner">*/}
-                                    {/*<div className="sp carousel-item active">*/}
-                                        {/*<ul className="container row size" id="carousel-wrapper">*/}
-                                            {/*<li><img style={{maxWidth: '100%'}} src={Image294}/></li>*/}
-                                            {/*<li><img src={Linkedin}/></li>*/}
-                                            {/*<li><img src={Glassdoor}/></li>*/}
-                                            {/*<li><img src={Jora}/></li>*/}
-                                            {/*<li><img src={Facebook}/></li>*/}
-                                            {/*<li><img src={Mitula}/></li>*/}
-                                        {/*</ul>*/}
-                                    {/*</div>*/}
-                                    {/**/}
-                                    {/*<div className="sp carousel-item">*/}
-                                        {/*<ul className="container row size" id="carousel-wrapper">*/}
-                                            {/*<li><img style={{maxWidth: '100%'}} src={Mitula}/></li>*/}
-                                            {/*<li><img src={Facebook}/></li>*/}
-                                            {/*<li><img src={Jora}/></li>*/}
-                                            {/*<li><img src={Image294}/></li>*/}
-                                            {/*<li><img src={Glassdoor}/></li>*/}
-                                            {/*<li><img src={Linkedin}/></li>*/}
-                                        {/*</ul>*/}
-                                    {/*</div>*/}
-
-                                {/*</div>*/}
-
-                                {/*<div id="button-previous" className="left carousel-control-prev" href="#Carousel"*/}
-                                     {/*role="button" data-slide="prev">❬*/}
-                                {/*</div>*/}
-                                {/*<div id="button-next" className="right carousel-control-next" role="button"*/}
-                                     {/*data-slide="next" href="#Carousel">❭*/}
-                                {/*</div>*/}
                             </Slider>
                         </div>
                     </div>
@@ -445,12 +412,11 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
 
             <Greatfeatures/>
 
-
             <div className="container">
                 <hr/>
             </div>
-            <Pricing />
 
+            <Pricing />
 
             <section id="testimonials" className="bg-light">
                 <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-28">
@@ -598,14 +564,11 @@ Scrivito.provideComponent("Homepage", ({ page }) => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </section>
             <br/>
             <Example/>
-            {/* <FooterComponent/> */}
         </div>
     );
 });
