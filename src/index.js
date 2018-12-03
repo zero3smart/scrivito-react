@@ -11,4 +11,7 @@ window.prerenderReady = false;
 ReactDOM.render(<App />, document.getElementById("application"));
 Scrivito.finishLoading().then(() => {
   window.prerenderReady = true;
+  window.Intercom("boot", {
+    app_id: "w9wxcesk",
+  });
 });
